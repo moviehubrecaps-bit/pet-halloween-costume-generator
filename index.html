@@ -1,3411 +1,2159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Pet Halloween Costume Generator | Dog & Cat Costume Ideas</title>
+<title>Pet Halloween Costume Generator for Dogs & Cats | Free Ideas</title>
 
-  <meta
-    name="description"
-    content="Find the perfect Halloween costume for your dog or cat. Generate cute, funny, spooky and creative pet costume ideas with simple DIY instructions."
-  />
+<meta name="description" content="Generate cute, funny, spooky and creative Halloween costume ideas for your dog or cat. Get simple DIY instructions, budget-friendly ideas and pet-safe costume tips.">
 
-  <meta
-    name="keywords"
-    content="pet Halloween costume generator, dog Halloween costumes, cat Halloween costumes, Halloween costumes for dogs, Halloween costumes for cats, DIY pet Halloween costumes, cute dog costumes, cute cat costumes"
-  />
+<meta name="robots" content="index, follow, max-image-preview:large">
 
-  <meta
-    name="robots"
-    content="index, follow, max-image-preview:large"
-  />
+<link rel="canonical" href="https://YOUR-DOMAIN.example/">
 
-  <link
-    rel="canonical"
-    href="https://YOUR-DOMAIN.example/"
-  />
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pet Halloween Costume Generator for Dogs & Cats">
+<meta property="og:description" content="Generate fun Halloween costume ideas for dogs and cats with simple DIY instructions and pet-friendly tips.">
+<meta property="og:url" content="https://YOUR-DOMAIN.example/">
+<meta property="og:site_name" content="Pet Halloween Costume Generator">
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:title"
-    content="Pet Halloween Costume Generator | Dog & Cat Costume Ideas"
-  />
-  <meta
-    property="og:description"
-    content="Generate fun Halloween costume ideas for your dog or cat, complete with simple instructions for putting each costume together."
-  />
-  <meta
-    property="og:url"
-    content="https://YOUR-DOMAIN.example/"
-  />
-  <meta
-    property="og:site_name"
-    content="Pet Halloween Costume Generator"
-  />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Pet Halloween Costume Generator">
+<meta name="twitter:description" content="Find the perfect Halloween costume idea for your dog or cat.">
 
-  <!-- Theme color -->
-  <meta name="theme-color" content="#171022" />
+<meta name="theme-color" content="#0d0715">
 
-  <!-- =========================
-       STRUCTURED DATA
-  ========================== -->
+<!-- =========================
+     STRUCTURED DATA
+========================= -->
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Pet Halloween Costume Generator",
-    "url": "https://YOUR-DOMAIN.example/",
-    "applicationCategory": "EntertainmentApplication",
-    "operatingSystem": "Any",
-    "browserRequirements": "Requires JavaScript",
-    "description": "A free Halloween costume idea generator for dogs and cats.",
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "Pet owners"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Pet Halloween Costume Generator",
+  "url": "https://YOUR-DOMAIN.example/",
+  "description": "A free Halloween costume idea generator for dogs and cats.",
+  "applicationCategory": "EntertainmentApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does the pet Halloween costume generator work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose dog or cat, select your preferred style, effort level and budget, optionally enter a theme, and generate three Halloween costume ideas."
+      }
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
+    {
+      "@type": "Question",
+      "name": "Is this generator for dogs and cats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The generator is designed specifically for dogs and cats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make the costumes myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Each generated costume includes a list of materials, simple assembly steps and a DIY variation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I find cheap Halloween costumes for pets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can select free or lower-budget options to prioritize simple and inexpensive costume ideas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the costume ideas safe for pets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The generator focuses on simple pet-friendly costume concepts. Pets should always be supervised, and costumes should not restrict breathing, vision, movement or access to the mouth and nose."
+      }
     }
+  ]
+}
+</script>
+
+<style>
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f8effb;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(92,45,120,.28), transparent 32%),
+    radial-gradient(circle at 10% 20%, rgba(255,113,170,.08), transparent 25%),
+    linear-gradient(180deg, #09050e 0%, #100817 45%, #07040b 100%);
+  overflow-x: hidden;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid #ff9b45;
+  outline-offset: 3px;
+}
+
+
+/* =========================================================
+   BACKGROUND
+========================================================= */
+
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: -5;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #fff2c7;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.star:nth-child(1) { top: 8%; left: 8%; }
+.star:nth-child(2) { top: 15%; left: 22%; }
+.star:nth-child(3) { top: 11%; left: 71%; }
+.star:nth-child(4) { top: 22%; left: 87%; }
+.star:nth-child(5) { top: 35%; left: 5%; }
+.star:nth-child(6) { top: 42%; left: 94%; }
+.star:nth-child(7) { top: 61%; left: 9%; }
+.star:nth-child(8) { top: 73%; left: 89%; }
+.star:nth-child(9) { top: 82%; left: 18%; }
+.star:nth-child(10) { top: 90%; left: 77%; }
+
+.moon {
+  position: absolute;
+  top: 75px;
+  right: 8%;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background: #ffe7a5;
+  box-shadow:
+    0 0 30px rgba(255,224,150,.28),
+    0 0 100px rgba(255,160,60,.12);
+}
+
+.moon::after {
+  content: "";
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  left: 24px;
+  top: -8px;
+  border-radius: 50%;
+  background: #0c0611;
+}
+
+
+/* =========================================================
+   CUTE HALLOWEEN DECOR
+========================================================= */
+
+.decor {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
+}
+
+.bat-one {
+  top: 150px;
+  left: 7%;
+  font-size: 30px;
+}
+
+.bat-two {
+  top: 285px;
+  right: 8%;
+  font-size: 25px;
+}
+
+.pumpkin-one {
+  top: 320px;
+  left: 5%;
+  font-size: 38px;
+}
+
+.ghost-one {
+  top: 430px;
+  right: 5%;
+  font-size: 38px;
+}
+
+.paw-one {
+  top: 520px;
+  left: 9%;
+  font-size: 28px;
+  opacity: .65;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+header {
+  position: relative;
+  min-height: 440px;
+  padding: 70px 20px 115px;
+  text-align: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(125,62,158,.28), transparent 38%),
+    linear-gradient(180deg, #0b0612 0%, #12081c 100%);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  bottom: -80px;
+  height: 160px;
+  background: #100817;
+  border-radius: 50% 50% 0 0;
+}
+
+.header-inner {
+  position: relative;
+  z-index: 5;
+  max-width: 900px;
+  margin: auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 999px;
+  background: rgba(255,156,66,.08);
+  border: 1px solid rgba(255,156,66,.25);
+  color: #ffc77e;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.3rem, 7vw, 4.7rem);
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.highlight {
+  display: block;
+  color: #ff9e45;
+}
+
+.hero-text {
+  max-width: 720px;
+  margin: 22px auto 0;
+  color: #cbb9d1;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.pet-icons {
+  margin-top: 25px;
+  font-size: 44px;
+  letter-spacing: 7px;
+}
+
+
+/* =========================================================
+   PAGE
+========================================================= */
+
+.page {
+  width: 100%;
+  max-width: 1480px;
+  margin: -45px auto 0;
+  padding: 0 20px 60px;
+  position: relative;
+  z-index: 10;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 190px minmax(0,760px) 190px;
+  gap: 24px;
+  align-items: start;
+  justify-content: center;
+}
+
+.main-column {
+  min-width: 0;
+}
+
+
+/* =========================================================
+   ADS
+========================================================= */
+
+.ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #706078;
+  font-size: 11px;
+  border: 1px dashed rgba(255,255,255,.12);
+  background: rgba(4,2,7,.55);
+}
+
+.side-ad {
+  width: 190px;
+  height: 600px;
+  position: sticky;
+  top: 20px;
+  border-radius: 16px;
+}
+
+.mobile-ad {
+  display: none;
+}
+
+.tool-ad {
+  width: 100%;
+  min-height: 100px;
+  margin: 20px 0;
+  border-radius: 16px;
+}
+
+.bottom-ad {
+  width: min(970px,100%);
+  height: 180px;
+  margin: 42px auto 0;
+  border-radius: 18px;
+}
+
+
+/* =========================================================
+   GENERATOR CARD
+========================================================= */
+
+.generator {
+  background:
+    linear-gradient(145deg, #21122d 0%, #120a1b 100%);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 28px;
+  padding: clamp(20px,4vw,36px);
+  box-shadow: 0 30px 80px rgba(0,0,0,.45);
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.intro h2 {
+  margin: 0 0 9px;
+  font-size: clamp(1.5rem,4vw,2rem);
+}
+
+.intro p {
+  margin: 0;
+  color: #aa98b1;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   HOW TO USE
+========================================================= */
+
+.how-to {
+  padding: 19px;
+  margin-bottom: 26px;
+  border-radius: 20px;
+  background: #170d22;
+  border: 1px solid rgba(255,255,255,.07);
+}
+
+.how-to h3 {
+  margin: 0 0 15px;
+  color: #ffb5d4;
+  font-size: 16px;
+}
+
+.how-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+
+.step {
+  padding: 13px;
+  border-radius: 14px;
+  background: #100817;
+  border: 1px solid rgba(255,255,255,.06);
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  background: #ff8d3d;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.step strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.step span {
+  display: block;
+  color: #96859e;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 17px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+label {
+  color: #ffb9d6;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+select,
+input {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 14px;
+  border-radius: 13px;
+  border: 1px solid rgba(255,255,255,.1);
+  background: #0c0611;
+  color: #fff;
+}
+
+select option {
+  background: #0c0611;
+  color: #fff;
+}
+
+select:focus,
+input:focus {
+  border-color: #a879d1;
+  box-shadow: 0 0 0 3px rgba(168,121,209,.15);
+  outline: none;
+}
+
+input::placeholder {
+  color: #64556c;
+}
+
+.generate {
+  width: 100%;
+  min-height: 58px;
+  margin-top: 23px;
+  border: 0;
+  border-radius: 16px;
+  background: linear-gradient(135deg,#ff9c3e,#ff6d8f);
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  box-shadow: 0 15px 35px rgba(255,103,119,.2);
+}
+
+.generate:hover {
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   RESULTS
+========================================================= */
+
+.results {
+  margin-top: 28px;
+}
+
+.results.hidden {
+  display: none;
+}
+
+.results-title {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.results-title h2 {
+  margin: 0 0 7px;
+  font-size: 1.65rem;
+}
+
+.results-title p {
+  margin: 0;
+  color: #a997b0;
+  line-height: 1.6;
+}
+
+.result {
+  position: relative;
+  margin-bottom: 17px;
+  padding: 23px;
+  border-radius: 20px;
+  background: #1b1026;
+  border: 1px solid rgba(255,255,255,.08);
+  overflow: hidden;
+}
+
+.result::after {
+  content: "🎃";
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 27px;
+  opacity: .2;
+}
+
+.result h3 {
+  margin: 0 40px 10px 0;
+  font-size: 1.3rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(255,157,199,.08);
+  border: 1px solid rgba(255,157,199,.12);
+  color: #ffc4df;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.result-section {
+  margin-top: 17px;
+}
+
+.result-section h4 {
+  margin: 0 0 7px;
+  color: #ffb66e;
+  font-size: 13px;
+}
+
+.result-section p,
+.result-section li {
+  color: #c4b4ca;
+  line-height: 1.65;
+  font-size: 14px;
+}
+
+.result-section p {
+  margin: 0;
+}
+
+.result-section ul,
+.result-section ol {
+  margin: 7px 0 0;
+  padding-left: 21px;
+}
+
+.result-section li + li {
+  margin-top: 4px;
+}
+
+.safety {
+  margin-top: 17px;
+  padding: 13px 15px;
+  border-radius: 13px;
+  background: rgba(255,190,91,.06);
+  border: 1px solid rgba(255,190,91,.14);
+  color: #dbc99e;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.more {
+  width: 100%;
+  min-height: 50px;
+  border-radius: 14px;
+  border: 1px solid #8764a6;
+  background: transparent;
+  color: #c99de9;
+  font-weight: 800;
+}
+
+.more:hover {
+  background: #8764a6;
+  color: #fff;
+}
+
+
+/* =========================================================
+   SEO / GEO CONTENT
+========================================================= */
+
+.content {
+  margin-top: 30px;
+  padding: 28px;
+  border-radius: 23px;
+  background: #110918;
+  border: 1px solid rgba(255,255,255,.07);
+}
+
+.content h2 {
+  margin: 0 0 12px;
+  font-size: 1.55rem;
+}
+
+.content h3 {
+  margin: 24px 0 8px;
+  color: #ffb7d4;
+  font-size: 1.08rem;
+}
+
+.content p,
+.content li {
+  color: #a998b0;
+  line-height: 1.75;
+}
+
+.content p {
+  margin: 0 0 13px;
+}
+
+.content ul {
+  padding-left: 21px;
+}
+
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.faq {
+  display: grid;
+  gap: 9px;
+}
+
+details {
+  border-radius: 14px;
+  background: #0c0611;
+  border: 1px solid rgba(255,255,255,.07);
+}
+
+summary {
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 800;
+  color: #f7edf9;
+}
+
+summary::marker {
+  color: #ff9d4d;
+}
+
+details p {
+  padding: 0 15px 15px;
+  margin: 0;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+  padding: 30px 20px 45px;
+  text-align: center;
+  color: #67576f;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .layout {
+    grid-template-columns: minmax(0,760px);
   }
-  </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://YOUR-DOMAIN.example/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Pet Halloween Costume Generator",
-        "item": "https://YOUR-DOMAIN.example/"
-      }
-    ]
+  .side-ad {
+    display: none;
   }
-  </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How does the pet Halloween costume generator work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Choose whether you have a dog or cat, select your pet's size, costume style, effort level and budget, then optionally add a theme. The generator creates three costume ideas based on those preferences."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I use the generator for dogs and cats?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. The generator is designed specifically for dogs and cats and provides pet-appropriate costume ideas and assembly instructions."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I make the Halloween costumes myself?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Each generated idea includes a DIY suggestion and simple steps for putting the costume together."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I find a cheap Halloween costume for my pet?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. You can select free or lower-budget options to prioritize costume ideas that can be made using things you already have or inexpensive materials."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are the costume ideas safe for pets?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The generator is designed around simple pet-friendly costume concepts. Costumes should always be supervised, kept comfortable and lightweight, and kept clear of the pet's eyes, mouth, nose and legs."
-        }
-      }
-    ]
+  .mobile-ad {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 18px;
+    border-radius: 15px;
   }
-  </script>
 
-  <style>
-    :root {
-      --bg: #120d1c;
-      --bg-two: #1a1027;
-      --bg-three: #241337;
+}
 
-      --card: #21162e;
-      --card-light: #2a1b3a;
-      --card-soft: #321f43;
 
-      --purple: #a878d3;
-      --purple-light: #cba1ed;
+@media (max-width: 760px) {
 
-      --pink: #ff9fc9;
-      --pink-light: #ffd5e8;
+  header {
+    min-height: 390px;
+    padding: 55px 17px 100px;
+  }
 
-      --orange: #ff9d3d;
-      --orange-light: #ffc477;
+  .moon {
+    width: 65px;
+    height: 65px;
+    right: 5%;
+    top: 75px;
+  }
 
-      --yellow: #ffe29a;
+  .moon::after {
+    width: 63px;
+    height: 63px;
+    left: 17px;
+    top: -6px;
+  }
 
-      --white: #fffafc;
-      --text: #f7edf9;
-      --muted: #c4b5cb;
+  .pet-icons {
+    font-size: 35px;
+    letter-spacing: 4px;
+  }
 
-      --border: rgba(255, 255, 255, 0.11);
+  .page {
+    margin-top: -30px;
+    padding: 0 12px 40px;
+  }
 
-      --shadow:
-        0 24px 70px rgba(0, 0, 0, 0.35);
+  .how-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
 
-      --radius: 24px;
-    }
+}
 
-    * {
-      box-sizing: border-box;
-    }
 
-    html {
-      scroll-behavior: smooth;
-    }
+@media (max-width: 600px) {
 
-    body {
-      margin: 0;
-      min-height: 100vh;
+  h1 {
+    letter-spacing: -2px;
+  }
 
-      font-family:
-        Inter,
-        ui-sans-serif,
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        sans-serif;
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
 
-      color: var(--text);
+  .full {
+    grid-column: auto;
+  }
 
-      background:
-        radial-gradient(
-          circle at 12% 8%,
-          rgba(255, 159, 201, 0.15),
-          transparent 23%
-        ),
-        radial-gradient(
-          circle at 88% 6%,
-          rgba(255, 157, 61, 0.16),
-          transparent 24%
-        ),
-        radial-gradient(
-          circle at 50% 45%,
-          rgba(120, 72, 159, 0.12),
-          transparent 35%
-        ),
-        linear-gradient(
-          180deg,
-          var(--bg) 0%,
-          var(--bg-two) 42%,
-          #0f0a16 100%
-        );
+  .generator {
+    padding: 18px;
+    border-radius: 21px;
+  }
 
-      overflow-x: hidden;
-    }
+  .how-grid {
+    grid-template-columns: 1fr;
+  }
 
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
+  .content {
+    padding: 21px;
+  }
 
-      background-image:
-        radial-gradient(
-          circle,
-          rgba(255, 255, 255, 0.35) 1px,
-          transparent 1px
-        );
+  .tool-ad {
+    min-height: 90px;
+  }
 
-      background-size: 44px 44px;
-      opacity: 0.16;
-      z-index: -1;
-    }
+  .bottom-ad {
+    height: 120px;
+    margin-top: 28px;
+  }
 
-    a {
-      color: inherit;
-    }
+  .result {
+    padding: 19px;
+  }
 
-    button,
-    select,
-    input {
-      font: inherit;
-    }
+  .decor {
+    display: none;
+  }
 
-    button {
-      cursor: pointer;
-    }
+}
 
-    :focus-visible {
-      outline: 3px solid var(--orange);
-      outline-offset: 3px;
-    }
 
-    /* =========================
-       HALLOWEEN DECOR
-    ========================== */
+@media (prefers-reduced-motion: reduce) {
 
-    .decor {
-      position: absolute;
-      pointer-events: none;
-      user-select: none;
-      z-index: 1;
-    }
+  html {
+    scroll-behavior: auto;
+  }
 
-    .moon {
-      top: 90px;
-      right: 7%;
-      width: 82px;
-      height: 82px;
-      border-radius: 50%;
+  * {
+    transition: none !important;
+  }
 
-      background:
-        radial-gradient(
-          circle at 35% 35%,
-          #fff6c8 0%,
-          #ffe4a0 55%,
-          #ffc96b 100%
-        );
+}
 
-      box-shadow:
-        0 0 30px rgba(255, 224, 154, 0.3),
-        0 0 80px rgba(255, 174, 80, 0.12);
-    }
-
-    .moon::after {
-      content: "";
-      position: absolute;
-      width: 74px;
-      height: 74px;
-      top: -7px;
-      left: 18px;
-      border-radius: 50%;
-      background: #171022;
-    }
-
-    .pumpkin {
-      font-size: 40px;
-      filter: drop-shadow(0 7px 10px rgba(0, 0, 0, 0.3));
-      animation: floaty 4.5s ease-in-out infinite;
-    }
-
-    .ghost {
-      font-size: 39px;
-      animation: floaty 5s ease-in-out infinite;
-    }
-
-    .bat {
-      font-size: 28px;
-      animation: flap 3.5s ease-in-out infinite;
-    }
-
-    .paw {
-      font-size: 31px;
-      opacity: 0.8;
-      animation: floaty 4s ease-in-out infinite;
-    }
-
-    .decor-one {
-      top: 180px;
-      left: 4%;
-    }
-
-    .decor-two {
-      top: 300px;
-      right: 5%;
-    }
-
-    .decor-three {
-      top: 390px;
-      left: 8%;
-    }
-
-    .decor-four {
-      top: 470px;
-      right: 11%;
-    }
-
-    @keyframes floaty {
-      0%, 100% {
-        transform: translateY(0) rotate(-2deg);
-      }
-
-      50% {
-        transform: translateY(-9px) rotate(2deg);
-      }
-    }
-
-    @keyframes flap {
-      0%, 100% {
-        transform: translateY(0) scaleX(1);
-      }
-
-      50% {
-        transform: translateY(-7px) scaleX(1.08);
-      }
-    }
-
-    /* =========================
-       HEADER
-    ========================== */
-
-    header {
-      position: relative;
-      overflow: hidden;
-
-      padding:
-        30px
-        20px
-        90px;
-
-      color: white;
-
-      background:
-        radial-gradient(
-          circle at 50% -10%,
-          rgba(255, 159, 201, 0.14),
-          transparent 32%
-        ),
-        linear-gradient(
-          145deg,
-          #120b1d 0%,
-          #241334 48%,
-          #341b46 100%
-        );
-
-      border-bottom:
-        1px solid rgba(255, 255, 255, 0.08);
-
-      box-shadow:
-        0 25px 60px rgba(0, 0, 0, 0.3);
-    }
-
-    header::before {
-      content: "";
-
-      position: absolute;
-      width: 500px;
-      height: 500px;
-      top: -330px;
-      left: 50%;
-      transform: translateX(-50%);
-
-      border-radius: 50%;
-
-      background:
-        radial-gradient(
-          circle,
-          rgba(255, 157, 61, 0.13),
-          transparent 65%
-        );
-    }
-
-    .header-inner {
-      position: relative;
-      z-index: 3;
-
-      max-width: 920px;
-      margin: 0 auto;
-
-      text-align: center;
-    }
-
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-
-      padding: 8px 15px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.12);
-
-      border-radius: 999px;
-
-      background:
-        rgba(255, 255, 255, 0.06);
-
-      color: var(--pink-light);
-
-      font-size: 13px;
-      font-weight: 900;
-
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      margin: 0;
-
-      font-size:
-        clamp(2.15rem, 5vw, 4.3rem);
-
-      line-height: 1.02;
-
-      letter-spacing: -0.05em;
-
-      text-shadow:
-        0 5px 30px rgba(0, 0, 0, 0.35);
-    }
-
-    .hero-highlight {
-      color: var(--orange-light);
-    }
-
-    .hero-subtitle {
-      max-width: 720px;
-
-      margin:
-        20px auto 0;
-
-      color: #d8c9df;
-
-      font-size:
-        clamp(1rem, 2vw, 1.2rem);
-
-      line-height: 1.7;
-    }
-
-    .hero-pets {
-      margin-top: 24px;
-
-      font-size: 42px;
-
-      letter-spacing: 8px;
-
-      filter:
-        drop-shadow(0 8px 12px rgba(0, 0, 0, 0.25));
-    }
-
-    /* =========================
-       PAGE
-    ========================== */
-
-    .page-shell {
-      position: relative;
-
-      max-width: 1480px;
-
-      margin:
-        -42px auto 0;
-
-      padding:
-        0 20px 55px;
-    }
-
-    .main-layout {
-      display: grid;
-
-      grid-template-columns:
-        190px
-        minmax(0, 760px)
-        190px;
-
-      gap: 24px;
-
-      align-items: start;
-
-      justify-content: center;
-    }
-
-    .tool-column {
-      min-width: 0;
-    }
-
-    /* =========================
-       ADS
-    ========================== */
-
-    .side-ad {
-      width: 190px;
-      height: 600px;
-
-      position: sticky;
-      top: 20px;
-
-      border:
-        1px dashed rgba(255, 255, 255, 0.16);
-
-      border-radius: 18px;
-
-      background:
-        rgba(20, 13, 29, 0.6);
-
-      color: #8e7e98;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      text-align: center;
-
-      font-size: 12px;
-      line-height: 1.5;
-    }
-
-    .mobile-ad {
-      display: none;
-    }
-
-    .tool-ad {
-      width: 100%;
-      min-height: 100px;
-
-      margin:
-        20px 0;
-
-      border:
-        1px dashed rgba(255, 255, 255, 0.16);
-
-      border-radius: 16px;
-
-      background:
-        rgba(14, 9, 21, 0.62);
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      color: #8e7e98;
-
-      font-size: 12px;
-    }
-
-    .bottom-ad {
-      width: min(970px, 100%);
-      height: 180px;
-
-      margin:
-        42px auto 0;
-
-      border:
-        1px dashed rgba(255, 255, 255, 0.16);
-
-      border-radius: 18px;
-
-      background:
-        rgba(14, 9, 21, 0.62);
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      color: #8e7e98;
-
-      font-size: 12px;
-      text-align: center;
-    }
-
-    /* =========================
-       MAIN CARD
-    ========================== */
-
-    .generator-card {
-      background:
-        linear-gradient(
-          145deg,
-          rgba(42, 27, 58, 0.98),
-          rgba(27, 17, 38, 0.98)
-        );
-
-      border:
-        1px solid rgba(255, 255, 255, 0.1);
-
-      border-radius: 30px;
-
-      box-shadow:
-        var(--shadow);
-
-      padding:
-        clamp(22px, 4vw, 38px);
-
-      backdrop-filter: blur(12px);
-    }
-
-    .card-heading {
-      text-align: center;
-
-      margin-bottom: 27px;
-    }
-
-    .card-heading h2 {
-      margin:
-        0 0 8px;
-
-      color: var(--white);
-
-      font-size:
-        clamp(1.5rem, 3vw, 2rem);
-    }
-
-    .card-heading p {
-      margin: 0;
-
-      color: var(--muted);
-
-      line-height: 1.65;
-    }
-
-    /* =========================
-       HOW TO USE
-    ========================== */
-
-    .how-to {
-      margin-bottom: 28px;
-
-      padding: 20px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.09);
-
-      border-radius: 20px;
-
-      background:
-        linear-gradient(
-          145deg,
-          rgba(92, 55, 119, 0.22),
-          rgba(255, 159, 201, 0.06)
-        );
-    }
-
-    .how-to-title {
-      display: flex;
-      align-items: center;
-      gap: 9px;
-
-      margin:
-        0 0 14px;
-
-      color: var(--pink-light);
-
-      font-size: 17px;
-      font-weight: 900;
-    }
-
-    .how-to-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(4, minmax(0, 1fr));
-
-      gap: 10px;
-    }
-
-    .how-step {
-      padding: 13px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.07);
-
-      border-radius: 15px;
-
-      background:
-        rgba(0, 0, 0, 0.14);
-    }
-
-    .how-number {
-      display: inline-flex;
-
-      align-items: center;
-      justify-content: center;
-
-      width: 27px;
-      height: 27px;
-
-      margin-bottom: 8px;
-
-      border-radius: 50%;
-
-      background:
-        linear-gradient(
-          135deg,
-          var(--orange),
-          #ff7272
-        );
-
-      color: white;
-
-      font-size: 12px;
-      font-weight: 900;
-    }
-
-    .how-step strong {
-      display: block;
-
-      margin-bottom: 4px;
-
-      color: var(--white);
-
-      font-size: 13px;
-    }
-
-    .how-step span {
-      display: block;
-
-      color: var(--muted);
-
-      font-size: 12px;
-      line-height: 1.5;
-    }
-
-    /* =========================
-       FORM
-    ========================== */
-
-    .form-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(2, minmax(0, 1fr));
-
-      gap: 18px;
-    }
-
-    .field {
-      display: flex;
-
-      flex-direction: column;
-
-      gap: 8px;
-    }
-
-    .field.full {
-      grid-column: 1 / -1;
-    }
-
-    label,
-    .field-label {
-      font-size: 14px;
-
-      font-weight: 800;
-
-      color: var(--pink-light);
-    }
-
-    select,
-    input[type="text"] {
-      width: 100%;
-
-      min-height: 50px;
-
-      padding:
-        12px 14px;
-
-      border:
-        2px solid rgba(255, 255, 255, 0.09);
-
-      border-radius: 14px;
-
-      background:
-        #171020;
-
-      color: var(--white);
-
-      outline: none;
-
-      transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease;
-    }
-
-    select option {
-      background: #171020;
-      color: white;
-    }
-
-    select:focus,
-    input[type="text"]:focus {
-      border-color: var(--purple);
-
-      box-shadow:
-        0 0 0 4px rgba(168, 120, 211, 0.13);
-
-      background:
-        #1c1228;
-    }
-
-    input::placeholder {
-      color: #75667d;
-    }
-
-    .generate-wrap {
-      margin-top: 24px;
-    }
-
-    .generate-btn {
-      width: 100%;
-
-      min-height: 59px;
-
-      border: 0;
-
-      border-radius: 17px;
-
-      color: white;
-
-      font-weight: 900;
-
-      font-size: 17px;
-
-      background:
-        linear-gradient(
-          135deg,
-          #ff9d3d 0%,
-          #ff7b70 55%,
-          #ff72ae 100%
-        );
-
-      box-shadow:
-        0 13px 30px rgba(255, 115, 108, 0.22);
-
-      transition:
-        transform 0.18s ease,
-        box-shadow 0.18s ease;
-    }
-
-    .generate-btn:hover {
-      transform: translateY(-2px);
-
-      box-shadow:
-        0 17px 36px rgba(255, 115, 108, 0.3);
-    }
-
-    .generate-btn:active {
-      transform: translateY(0);
-    }
-
-    /* =========================
-       RESULTS
-    ========================== */
-
-    .results {
-      margin-top: 30px;
-    }
-
-    .results-header {
-      text-align: center;
-
-      margin-bottom: 18px;
-    }
-
-    .results-header h2 {
-      margin:
-        0 0 7px;
-
-      color: var(--white);
-
-      font-size: 1.65rem;
-    }
-
-    .results-header p {
-      margin: 0;
-
-      color: var(--muted);
-
-      line-height: 1.6;
-    }
-
-    .result-card {
-      position: relative;
-
-      overflow: hidden;
-
-      margin-bottom: 18px;
-
-      padding: 24px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.1);
-
-      border-radius: 22px;
-
-      background:
-        linear-gradient(
-          145deg,
-          #2b1b3a 0%,
-          #21152e 100%
-        );
-
-      box-shadow:
-        0 10px 30px rgba(0, 0, 0, 0.22);
-    }
-
-    .result-card::before {
-      content: "🎃";
-
-      position: absolute;
-
-      right: 18px;
-      top: 14px;
-
-      font-size: 28px;
-
-      opacity: 0.25;
-    }
-
-    .result-title {
-      margin:
-        0 42px 8px 0;
-
-      color: var(--white);
-
-      font-size: 1.35rem;
-    }
-
-    .result-tags {
-      display: flex;
-
-      flex-wrap: wrap;
-
-      gap: 7px;
-
-      margin-bottom: 18px;
-    }
-
-    .tag {
-      display: inline-flex;
-
-      align-items: center;
-
-      padding:
-        5px 9px;
-
-      border-radius: 999px;
-
-      background:
-        rgba(255, 159, 201, 0.1);
-
-      border:
-        1px solid rgba(255, 159, 201, 0.13);
-
-      color: var(--pink-light);
-
-      font-size: 12px;
-
-      font-weight: 800;
-    }
-
-    .result-section {
-      margin-top: 18px;
-    }
-
-    .result-section h4 {
-      margin:
-        0 0 8px;
-
-      color: var(--orange-light);
-
-      font-size: 14px;
-    }
-
-    .result-section p {
-      margin: 0;
-
-      color: #d2c4d8;
-
-      line-height: 1.65;
-    }
-
-    .result-section ul,
-    .result-section ol {
-      margin:
-        8px 0 0;
-
-      padding-left: 21px;
-
-      color: #d2c4d8;
-
-      line-height: 1.65;
-    }
-
-    .result-section li + li {
-      margin-top: 5px;
-    }
-
-    .pet-note {
-      margin-top: 18px;
-
-      padding:
-        13px 15px;
-
-      border-radius: 14px;
-
-      background:
-        rgba(255, 194, 100, 0.08);
-
-      border:
-        1px solid rgba(255, 194, 100, 0.18);
-
-      color: #ead7b0;
-
-      font-size: 13px;
-
-      line-height: 1.55;
-    }
-
-    .more-btn {
-      width: 100%;
-
-      min-height: 50px;
-
-      margin-top: 6px;
-
-      border:
-        2px solid rgba(168, 120, 211, 0.65);
-
-      border-radius: 15px;
-
-      background:
-        transparent;
-
-      color: var(--purple-light);
-
-      font-weight: 900;
-
-      transition:
-        background 0.2s ease,
-        color 0.2s ease,
-        border-color 0.2s ease;
-    }
-
-    .more-btn:hover {
-      background:
-        var(--purple);
-
-      border-color:
-        var(--purple);
-
-      color:
-        white;
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    /* =========================
-       SEO CONTENT
-    ========================== */
-
-    .content-section {
-      max-width: 900px;
-
-      margin:
-        50px auto 0;
-
-      padding:
-        30px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.08);
-
-      border-radius: 24px;
-
-      background:
-        rgba(28, 17, 39, 0.82);
-
-      box-shadow:
-        0 15px 45px rgba(0, 0, 0, 0.18);
-    }
-
-    .content-section h2 {
-      margin:
-        0 0 12px;
-
-      color: var(--white);
-
-      font-size:
-        clamp(1.4rem, 3vw, 1.9rem);
-    }
-
-    .content-section h3 {
-      margin:
-        25px 0 8px;
-
-      color: var(--pink-light);
-
-      font-size: 1.15rem;
-    }
-
-    .content-section p {
-      margin:
-        0 0 14px;
-
-      color: var(--muted);
-
-      line-height: 1.75;
-    }
-
-    .content-section ul {
-      color: var(--muted);
-
-      line-height: 1.75;
-
-      padding-left: 21px;
-    }
-
-    /* =========================
-       FAQ
-    ========================== */
-
-    .faq-list {
-      display: grid;
-
-      gap: 10px;
-    }
-
-    details {
-      border:
-        1px solid rgba(255, 255, 255, 0.08);
-
-      border-radius: 15px;
-
-      background:
-        rgba(0, 0, 0, 0.12);
-
-      overflow: hidden;
-    }
-
-    summary {
-      padding:
-        15px 17px;
-
-      cursor: pointer;
-
-      color: var(--white);
-
-      font-weight: 800;
-
-      list-style: none;
-    }
-
-    summary::-webkit-details-marker {
-      display: none;
-    }
-
-    summary::after {
-      content: "+";
-
-      float: right;
-
-      color: var(--orange-light);
-
-      font-size: 18px;
-    }
-
-    details[open] summary::after {
-      content: "−";
-    }
-
-    details p {
-      padding:
-        0 17px 16px;
-
-      margin: 0;
-    }
-
-    /* =========================
-       FOOTER
-    ========================== */
-
-    footer {
-      padding:
-        28px 20px 45px;
-
-      text-align: center;
-
-      color: #86758f;
-
-      font-size: 13px;
-    }
-
-    footer p {
-      margin:
-        5px 0;
-    }
-
-    /* =========================
-       RESPONSIVE
-    ========================== */
-
-    @media (max-width: 1100px) {
-
-      .main-layout {
-        grid-template-columns:
-          minmax(0, 760px);
-      }
-
-      .side-ad {
-        display: none;
-      }
-
-      .mobile-ad {
-        display: flex;
-
-        width: 100%;
-
-        min-height: 100px;
-
-        margin-bottom: 18px;
-
-        border:
-          1px dashed rgba(255, 255, 255, 0.16);
-
-        border-radius: 16px;
-
-        background:
-          rgba(14, 9, 21, 0.62);
-
-        align-items: center;
-        justify-content: center;
-
-        color: #8e7e98;
-
-        font-size: 12px;
-
-        text-align: center;
-      }
-    }
-
-    @media (max-width: 760px) {
-
-      .how-to-grid {
-        grid-template-columns:
-          repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 650px) {
-
-      header {
-        padding:
-          24px 17px 68px;
-      }
-
-      .page-shell {
-        margin-top: -28px;
-
-        padding:
-          0 12px 35px;
-      }
-
-      .generator-card {
-        border-radius: 22px;
-
-        padding: 19px;
-      }
-
-      .form-grid {
-        grid-template-columns: 1fr;
-
-        gap: 15px;
-      }
-
-      .field.full {
-        grid-column: auto;
-      }
-
-      .hero-pets {
-        font-size: 34px;
-
-        letter-spacing: 5px;
-      }
-
-      .moon {
-        width: 60px;
-        height: 60px;
-
-        top: 105px;
-        right: 5%;
-      }
-
-      .moon::after {
-        width: 54px;
-        height: 54px;
-
-        left: 14px;
-        top: -5px;
-      }
-
-      .decor-one {
-        left: 2%;
-        top: 220px;
-      }
-
-      .decor-two {
-        right: 2%;
-        top: 310px;
-      }
-
-      .decor-three,
-      .decor-four {
-        display: none;
-      }
-
-      .tool-ad {
-        min-height: 90px;
-      }
-
-      .bottom-ad {
-        height: 120px;
-
-        margin-top: 28px;
-      }
-
-      .result-card {
-        padding: 20px;
-      }
-
-      .content-section {
-        padding: 22px;
-
-        margin-top: 32px;
-      }
-    }
-
-    @media (max-width: 480px) {
-
-      .how-to-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-
-      html {
-        scroll-behavior: auto;
-      }
-
-      *,
-      *::before,
-      *::after {
-        animation: none !important;
-
-        transition: none !important;
-      }
-    }
-  </style>
+</style>
 </head>
 
 <body>
 
-  <!-- =========================
-       DECORATIVE HALLOWEEN ELEMENTS
-  ========================== -->
+<!-- =========================================================
+     BACKGROUND
+========================================================= -->
 
-  <div class="decor moon" aria-hidden="true"></div>
-
-  <div class="decor pumpkin decor-one" aria-hidden="true">
-    🎃
-  </div>
-
-  <div class="decor ghost decor-two" aria-hidden="true">
-    👻
-  </div>
-
-  <div class="decor bat decor-three" aria-hidden="true">
-    🦇
-  </div>
-
-  <div class="decor paw decor-four" aria-hidden="true">
-    🐾
-  </div>
+<div class="background" aria-hidden="true">
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <div class="moon"></div>
+</div>
 
 
-  <!-- =========================
-       HEADER
-  ========================== -->
+<!-- Cute Halloween decorations -->
 
-  <header>
+<div class="decor bat-one" aria-hidden="true">🦇</div>
+<div class="decor bat-two" aria-hidden="true">🦇</div>
+<div class="decor pumpkin-one" aria-hidden="true">🎃</div>
+<div class="decor ghost-one" aria-hidden="true">👻</div>
+<div class="decor paw-one" aria-hidden="true">🐾</div>
 
-    <div class="header-inner">
 
-      <div class="brand">
-        🎃 Pet Halloween Fun
-      </div>
+<!-- =========================================================
+     HEADER
+========================================================= -->
 
-      <h1>
-        Pet Halloween
-        <span class="hero-highlight">Costume Generator</span>
-      </h1>
+<header>
 
-      <p class="hero-subtitle">
-        Find a cute, funny, spooky or creative Halloween costume
-        for your dog or cat — then get simple instructions for
-        putting the look together.
-      </p>
+  <div class="header-inner">
 
-      <div
-        class="hero-pets"
-        aria-hidden="true"
-      >
-        🐶 🐱 🎃 👻
-      </div>
-
+    <div class="badge">
+      🎃 Cute • Spooky • Pet-Friendly
     </div>
 
-  </header>
+    <h1>
+      Pet Halloween
+      <span class="highlight">Costume Generator</span>
+    </h1>
 
+    <p class="hero-text">
+      Find a fun Halloween costume for your dog or cat.
+      Choose their style, budget and effort level to get
+      three ideas with simple DIY instructions.
+    </p>
 
-  <!-- =========================
-       MAIN
-  ========================== -->
-
-  <main class="page-shell">
-
-    <!-- Mobile top advertisement -->
-
-    <div
-      class="mobile-ad"
-      aria-label="Advertisement"
-    >
-      Advertisement
+    <div class="pet-icons" aria-hidden="true">
+      🐶 🐱 🎃 👻
     </div>
 
+  </div>
 
-    <div class="main-layout">
+</header>
 
-      <!-- Desktop left advertisement -->
 
-      <aside
-        class="side-ad"
-        aria-label="Advertisement"
-      >
-        Advertisement<br />
-        190 × 600
-      </aside>
+<!-- =========================================================
+     MAIN
+========================================================= -->
 
+<main class="page">
 
-      <section class="tool-column">
+  <!-- Mobile top ad -->
 
-        <div class="generator-card">
+  <div class="mobile-ad ad" aria-label="Advertisement">
+    Advertisement
+  </div>
 
-          <!-- =========================
-               INTRO
-          ========================== -->
 
-          <div class="card-heading">
+  <div class="layout">
 
-            <h2>
-              Find their perfect Halloween look 🐾
-            </h2>
 
-            <p>
-              Tell us about your dog or cat, choose your style,
-              budget and effort level, and we'll create three
-              costume ideas for you.
-            </p>
+    <!-- Desktop left ad -->
 
-          </div>
+    <aside class="side-ad ad" aria-label="Advertisement">
+      Advertisement<br>
+      190 × 600
+    </aside>
 
 
-          <!-- =========================
-               HOW TO USE
-          ========================== -->
+    <!-- Main column -->
 
-          <section
-            class="how-to"
-            aria-labelledby="how-to-title"
-          >
+    <div class="main-column">
 
-            <h2
-              class="how-to-title"
-              id="how-to-title"
-            >
-              🪄 How to use the generator
-            </h2>
 
-            <div class="how-to-grid">
+      <!-- =====================================================
+           GENERATOR
+      ====================================================== -->
 
-              <div class="how-step">
+      <section class="generator" aria-labelledby="generator-title">
 
-                <span
-                  class="how-number"
-                  aria-hidden="true"
-                >
-                  1
-                </span>
+        <div class="intro">
 
-                <strong>Choose your pet</strong>
+          <h2 id="generator-title">
+            Find their perfect Halloween look 🐾
+          </h2>
 
-                <span>
-                  Select dog or cat and choose their approximate size.
-                </span>
-
-              </div>
-
-
-              <div class="how-step">
-
-                <span
-                  class="how-number"
-                  aria-hidden="true"
-                >
-                  2
-                </span>
-
-                <strong>Pick your preferences</strong>
-
-                <span>
-                  Choose a style, budget and how much effort you want to put in.
-                </span>
-
-              </div>
-
-
-              <div class="how-step">
-
-                <span
-                  class="how-number"
-                  aria-hidden="true"
-                >
-                  3
-                </span>
-
-                <strong>Add a theme</strong>
-
-                <span>
-                  Try words like pumpkin, witch, space, superhero or food.
-                </span>
-
-              </div>
-
-
-              <div class="how-step">
-
-                <span
-                  class="how-number"
-                  aria-hidden="true"
-                >
-                  4
-                </span>
-
-                <strong>Generate ideas</strong>
-
-                <span>
-                  Get three ideas with supplies, steps and a DIY suggestion.
-                </span>
-
-              </div>
-
-            </div>
-
-          </section>
-
-
-          <!-- =========================
-               FORM
-          ========================== -->
-
-          <form id="costumeForm">
-
-            <div class="form-grid">
-
-
-              <div class="field">
-
-                <label for="petType">
-                  What kind of pet?
-                </label>
-
-                <select
-                  id="petType"
-                  required
-                >
-                  <option value="dog">
-                    🐶 Dog
-                  </option>
-
-                  <option value="cat">
-                    🐱 Cat
-                  </option>
-                </select>
-
-              </div>
-
-
-              <div class="field">
-
-                <label for="size">
-                  Pet size
-                </label>
-
-                <select id="size">
-
-                  <option value="any">
-                    Any size
-                  </option>
-
-                  <option value="small">
-                    Small
-                  </option>
-
-                  <option value="medium">
-                    Medium
-                  </option>
-
-                  <option value="large">
-                    Large
-                  </option>
-
-                </select>
-
-              </div>
-
-
-              <div class="field">
-
-                <label for="style">
-                  Costume style
-                </label>
-
-                <select id="style">
-
-                  <option value="any">
-                    Surprise me
-                  </option>
-
-                  <option value="cute">
-                    Cute
-                  </option>
-
-                  <option value="funny">
-                    Funny
-                  </option>
-
-                  <option value="scary">
-                    Spooky
-                  </option>
-
-                  <option value="creative">
-                    Creative
-                  </option>
-
-                  <option value="classic">
-                    Classic Halloween
-                  </option>
-
-                  <option value="food">
-                    Food themed
-                  </option>
-
-                  <option value="pop">
-                    Pop-culture inspired
-                  </option>
-
-                </select>
-
-              </div>
-
-
-              <div class="field">
-
-                <label for="effort">
-                  How much effort?
-                </label>
-
-                <select id="effort">
-
-                  <option value="any">
-                    Any effort
-                  </option>
-
-                  <option value="easy">
-                    Super easy
-                  </option>
-
-                  <option value="medium">
-                    Some effort
-                  </option>
-
-                  <option value="diy">
-                    DIY project
-                  </option>
-
-                </select>
-
-              </div>
-
-
-              <div class="field">
-
-                <label for="budget">
-                  Budget
-                </label>
-
-                <select id="budget">
-
-                  <option value="any">
-                    Any budget
-                  </option>
-
-                  <option value="free">
-                    Free / use what I have
-                  </option>
-
-                  <option value="under25">
-                    Under $25
-                  </option>
-
-                  <option value="under50">
-                    Under $50
-                  </option>
-
-                  <option value="50plus">
-                    $50+
-                  </option>
-
-                </select>
-
-              </div>
-
-
-              <div class="field">
-
-                <label for="matching">
-                  Match my costume?
-                </label>
-
-                <select id="matching">
-
-                  <option value="no">
-                    No preference
-                  </option>
-
-                  <option value="yes">
-                    Yes — make it match!
-                  </option>
-
-                </select>
-
-              </div>
-
-
-              <div class="field full">
-
-                <label for="theme">
-                  Optional theme
-                </label>
-
-                <input
-                  type="text"
-                  id="theme"
-                  maxlength="50"
-                  placeholder="e.g. pumpkin, witch, space, superhero, food"
-                />
-
-              </div>
-
-            </div>
-
-
-            <div class="generate-wrap">
-
-              <button
-                class="generate-btn"
-                type="submit"
-              >
-                🎃 Generate 3 Costume Ideas
-              </button>
-
-            </div>
-
-          </form>
-
-
-          <!-- Advertisement directly below generator -->
-
-          <div
-            class="tool-ad"
-            aria-label="Advertisement"
-          >
-            Advertisement
-          </div>
-
-
-          <!-- =========================
-               RESULTS
-          ========================== -->
-
-          <section
-            id="results"
-            class="results hidden"
-            aria-live="polite"
-            aria-atomic="true"
-          ></section>
+          <p>
+            Tell us about your dog or cat and we'll create
+            three Halloween costume ideas for you.
+          </p>
 
         </div>
 
 
-        <!-- =========================
-             SEO CONTENT
-        ========================== -->
+        <!-- HOW TO USE -->
 
-        <section
-          class="content-section"
-          aria-labelledby="about-title"
-        >
+        <section class="how-to" aria-labelledby="how-title">
 
-          <h2 id="about-title">
-            Halloween Costume Ideas for Dogs and Cats
-          </h2>
-
-          <p>
-            Looking for a Halloween costume for your dog or cat?
-            This free pet Halloween costume generator helps you find
-            ideas based on your pet, preferred style, budget and
-            how much time you want to spend making the costume.
-          </p>
-
-          <p>
-            Instead of giving you a long list of random costumes,
-            the generator creates a small set of ideas and explains
-            what you need and how to put each look together.
-          </p>
-
-
-          <h3>
-            Easy Halloween costumes for pets
+          <h3 id="how-title">
+            🪄 How to use the generator
           </h3>
 
-          <p>
-            If you want a last-minute Halloween costume, choose
-            <strong>Super easy</strong> and a lower budget.
-            The generator will prioritize simple ideas that can
-            use everyday materials or inexpensive pet accessories.
-          </p>
+          <div class="how-grid">
 
+            <div class="step">
+              <span class="step-number">1</span>
+              <strong>Choose your pet</strong>
+              <span>Select dog or cat and their approximate size.</span>
+            </div>
 
-          <h3>
-            DIY Halloween costumes for dogs and cats
-          </h3>
+            <div class="step">
+              <span class="step-number">2</span>
+              <strong>Choose your style</strong>
+              <span>Pick cute, funny, spooky, creative or classic.</span>
+            </div>
 
-          <p>
-            Choose the DIY or some-effort option if you want to
-            make something yourself. Generated results include a
-            short materials list, assembly instructions and a DIY
-            variation to help you turn the idea into a real costume.
-          </p>
+            <div class="step">
+              <span class="step-number">3</span>
+              <strong>Set your budget</strong>
+              <span>Choose free, under $25, under $50 or $50+.</span>
+            </div>
 
+            <div class="step">
+              <span class="step-number">4</span>
+              <strong>Generate ideas</strong>
+              <span>Get three ideas with materials and instructions.</span>
+            </div>
 
-          <h3>
-            Matching Halloween costumes for pets and owners
-          </h3>
-
-          <p>
-            Want your dog or cat to match your Halloween costume?
-            Select <strong>Yes — make it match!</strong> and the
-            generator will prioritize costume concepts that can
-            work as part of a matching or complementary look.
-          </p>
-
-
-          <h3>
-            Pet costume comfort matters
-          </h3>
-
-          <p>
-            Every pet is different. Costumes should be lightweight
-            and comfortable, and pets should be supervised while
-            wearing them. Keep accessories away from the eyes,
-            mouth and nose, avoid loose pieces that could be
-            swallowed, and remove the costume if your pet appears
-            uncomfortable or stressed.
-          </p>
+          </div>
 
         </section>
 
 
-        <!-- =========================
-             FAQ
-        ========================== -->
+        <!-- FORM -->
 
-        <section
-          class="content-section"
-          aria-labelledby="faq-title"
-        >
+        <form id="costumeForm">
 
-          <h2 id="faq-title">
-            Pet Halloween Costume Generator FAQ
-          </h2>
-
-          <div class="faq-list">
-
-            <details>
-
-              <summary>
-                How does the pet Halloween costume generator work?
-              </summary>
-
-              <p>
-                Choose whether you have a dog or cat, select the
-                pet's size, costume style, effort level and budget,
-                then optionally add a theme. The generator creates
-                three ideas based on those preferences.
-              </p>
-
-            </details>
+          <div class="form-grid">
 
 
-            <details>
+            <div class="field">
 
-              <summary>
-                Can I use this for both dogs and cats?
-              </summary>
+              <label for="petType">
+                What kind of pet?
+              </label>
 
-              <p>
-                Yes. The generator is specifically designed for
-                dogs and cats, with pet-appropriate costume ideas
-                and instructions.
-              </p>
+              <select id="petType">
+                <option value="dog">🐶 Dog</option>
+                <option value="cat">🐱 Cat</option>
+              </select>
 
-            </details>
-
-
-            <details>
-
-              <summary>
-                Can I make the costume myself?
-              </summary>
-
-              <p>
-                Yes. Each result includes a list of things you may
-                need, simple assembly steps and a DIY suggestion.
-              </p>
-
-            </details>
+            </div>
 
 
-            <details>
+            <div class="field">
 
-              <summary>
-                Can I find a cheap pet Halloween costume?
-              </summary>
+              <label for="size">
+                Pet size
+              </label>
 
-              <p>
-                Yes. Choose the free or lower-budget options to
-                prioritize ideas that can be made using things
-                you already have or inexpensive materials.
-              </p>
+              <select id="size">
+                <option value="any">Any size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
 
-            </details>
+            </div>
 
 
-            <details>
+            <div class="field">
 
-              <summary>
-                Are these costumes safe for pets?
-              </summary>
+              <label for="style">
+                Costume style
+              </label>
 
-              <p>
-                The generator focuses on simple, pet-friendly
-                concepts. Always supervise your pet while wearing
-                a costume, keep their face and movement clear, and
-                remove anything that causes discomfort.
-              </p>
+              <select id="style">
+                <option value="any">🎲 Surprise me</option>
+                <option value="cute">💕 Cute</option>
+                <option value="funny">😂 Funny</option>
+                <option value="scary">👻 Spooky</option>
+                <option value="creative">✨ Creative</option>
+                <option value="classic">🎃 Classic Halloween</option>
+                <option value="food">🌮 Food themed</option>
+              </select>
 
-            </details>
+            </div>
+
+
+            <div class="field">
+
+              <label for="effort">
+                How much effort?
+              </label>
+
+              <select id="effort">
+                <option value="any">Any effort</option>
+                <option value="easy">Super easy</option>
+                <option value="medium">Some effort</option>
+                <option value="diy">DIY project</option>
+              </select>
+
+            </div>
+
+
+            <div class="field">
+
+              <label for="budget">
+                Budget
+              </label>
+
+              <select id="budget">
+                <option value="any">Any budget</option>
+                <option value="free">Free / use what I have</option>
+                <option value="under25">Under $25</option>
+                <option value="under50">Under $50</option>
+                <option value="50plus">$50+</option>
+              </select>
+
+            </div>
+
+
+            <div class="field">
+
+              <label for="matching">
+                Match my costume?
+              </label>
+
+              <select id="matching">
+                <option value="no">No preference</option>
+                <option value="yes">Yes — make it match!</option>
+              </select>
+
+            </div>
+
+
+            <div class="field full">
+
+              <label for="theme">
+                Optional theme
+              </label>
+
+              <input
+                type="text"
+                id="theme"
+                maxlength="50"
+                placeholder="pumpkin, witch, vampire, space, cowboy, food..."
+              >
+
+            </div>
 
           </div>
 
+
+          <button class="generate" type="submit">
+            🎃 Generate 3 Costume Ideas
+          </button>
+
+        </form>
+
+
+        <!-- AD UNDER GENERATOR -->
+
+        <div class="tool-ad ad" aria-label="Advertisement">
+          Advertisement
+        </div>
+
+
+        <!-- RESULTS -->
+
+        <section
+          id="results"
+          class="results hidden"
+          aria-live="polite"
+          aria-atomic="true">
         </section>
 
       </section>
 
 
-      <!-- Desktop right advertisement -->
+      <!-- =====================================================
+           SEO / GEO CONTENT
+      ====================================================== -->
 
-      <aside
-        class="side-ad"
-        aria-label="Advertisement"
-      >
-        Advertisement<br />
-        190 × 600
-      </aside>
+      <section class="content" aria-labelledby="about-title">
+
+        <h2 id="about-title">
+          Halloween Costume Ideas for Dogs and Cats
+        </h2>
+
+        <p>
+          The Pet Halloween Costume Generator is a free online
+          tool for finding Halloween costume ideas specifically
+          for dogs and cats. Choose your pet, style, budget and
+          effort level to generate ideas you can actually put together.
+        </p>
+
+        <p>
+          Each result includes what you may need, simple instructions
+          and a DIY variation. The goal is to make finding a fun pet
+          Halloween costume quicker and easier.
+        </p>
+
+
+        <h3>
+          What is a pet Halloween costume generator?
+        </h3>
+
+        <p>
+          A pet Halloween costume generator is an online tool that
+          creates costume suggestions based on preferences such as
+          pet type, style, budget and DIY effort. This generator is
+          designed for dog and cat owners looking for Halloween
+          costume inspiration.
+        </p>
+
+
+        <h3>
+          Easy Halloween costumes for dogs and cats
+        </h3>
+
+        <p>
+          For a quick costume, choose <strong>Super easy</strong>
+          and a lower budget. These settings prioritize simple
+          costume concepts that can use everyday materials,
+          bandanas or lightweight pet accessories.
+        </p>
+
+
+        <h3>
+          DIY Halloween costumes for pets
+        </h3>
+
+        <p>
+          If you enjoy crafting, select <strong>DIY project</strong>.
+          Generated ideas include materials, step-by-step assembly
+          instructions and a DIY variation you can adapt at home.
+        </p>
+
+
+        <h3>
+          Matching Halloween costumes
+        </h3>
+
+        <p>
+          Want your pet to match you? Select
+          <strong>Yes — make it match!</strong> and the generator
+          will prioritize costume ideas that can complement a
+          human Halloween costume.
+        </p>
+
+
+        <h3>
+          Pet-friendly Halloween costume tips
+        </h3>
+
+        <ul>
+          <li>Keep costumes lightweight and comfortable.</li>
+          <li>Keep your pet's eyes, mouth and nose unobstructed.</li>
+          <li>Avoid loose pieces, dangling strings and small detachable parts.</li>
+          <li>Make sure your pet can walk and move normally.</li>
+          <li>Supervise your pet whenever they are wearing a costume.</li>
+          <li>Remove the costume if your pet seems uncomfortable or stressed.</li>
+        </ul>
+
+      </section>
+
+
+      <!-- =====================================================
+           FAQ
+      ====================================================== -->
+
+      <section class="content" aria-labelledby="faq-title">
+
+        <h2 id="faq-title">
+          Pet Halloween Costume Generator FAQ
+        </h2>
+
+        <div class="faq">
+
+
+          <details>
+
+            <summary>
+              How does the pet Halloween costume generator work?
+            </summary>
+
+            <p>
+              Choose dog or cat, select the style, effort level
+              and budget, optionally enter a theme, and generate
+              three Halloween costume ideas.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Is this generator for dogs and cats?
+            </summary>
+
+            <p>
+              Yes. The generator is specifically designed for
+              dogs and cats.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Can I make the costumes myself?
+            </summary>
+
+            <p>
+              Yes. Each generated result includes things you may
+              need, simple assembly instructions and a DIY idea.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Can I find a cheap Halloween costume for my pet?
+            </summary>
+
+            <p>
+              Yes. Select free or a lower budget to prioritize
+              inexpensive costume concepts.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Are these costumes safe for pets?
+            </summary>
+
+            <p>
+              The generator focuses on simple pet-friendly concepts.
+              Always supervise your pet, keep their face and movement
+              clear, and remove anything that causes discomfort.
+            </p>
+
+          </details>
+
+
+        </div>
+
+      </section>
+
 
     </div>
 
 
-    <!-- Large bottom advertisement -->
+    <!-- Desktop right ad -->
 
-    <div
-      class="bottom-ad"
-      aria-label="Advertisement"
-    >
-      Advertisement<br />
-      970 × 180
-    </div>
+    <aside class="side-ad ad" aria-label="Advertisement">
+      Advertisement<br>
+      190 × 600
+    </aside>
 
-
-    <!-- Mobile bottom advertisement -->
-
-    <div
-      class="mobile-ad"
-      style="margin-top: 18px;"
-      aria-label="Advertisement"
-    >
-      Advertisement
-    </div>
-
-  </main>
+  </div>
 
 
-  <!-- =========================
-       FOOTER
-  ========================== -->
+  <!-- LARGE BOTTOM AD -->
 
-  <footer>
-
-    <p>
-      🐾 Made for dog and cat parents looking for Halloween costume ideas.
-    </p>
-
-    <p>
-      Costume suggestions are for inspiration. Always prioritize your
-      pet's comfort and safety.
-    </p>
-
-  </footer>
+  <div class="bottom-ad ad" aria-label="Advertisement">
+    Advertisement<br>
+    970 × 180
+  </div>
 
 
-  <!-- =========================
-       JAVASCRIPT
-  ========================== -->
+  <!-- MOBILE BOTTOM AD -->
 
-  <script>
+  <div
+    class="mobile-ad ad"
+    style="margin-top:18px;"
+    aria-label="Advertisement">
+    Advertisement
+  </div>
 
-    /*
-      ==========================================
-      PET HALLOWEEN COSTUME DATABASE
-      ==========================================
-    */
-
-    const costumes = [
-
-      {
-        name: "Pumpkin Pup",
-        pets: ["dog"],
-        sizes: ["small", "medium", "large"],
-        styles: ["cute", "classic"],
-        effort: "easy",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "pumpkin",
-          "orange",
-          "fall",
-          "classic",
-          "halloween"
-        ],
-        why:
-          "A simple pumpkin look that is instantly recognizable and easy to customize.",
-        needs: [
-          "Orange bandana, shirt or comfortable pet accessory",
-          "Optional lightweight pumpkin detail",
-          "Your dog's normal collar or harness"
-        ],
-        steps: [
-          "Start with a comfortable orange bandana, shirt or other pet-safe base.",
-          "Add one lightweight pumpkin-themed detail if your dog is comfortable with it.",
-          "Make sure the accessory does not cover the eyes, mouth or nose.",
-          "Let your dog wear the costume briefly before Halloween so they can get used to it."
-        ],
-        diy:
-          "Cut a simple pumpkin shape from felt and attach it securely to a bandana rather than directly to your pet."
-      },
+</main>
 
 
-      {
-        name: "Little Pumpkin Cat",
-        pets: ["cat"],
-        sizes: ["small", "medium"],
-        styles: ["cute", "classic"],
-        effort: "easy",
-        budget: "free",
-        matching: true,
-        keywords: [
-          "pumpkin",
-          "cat",
-          "orange",
-          "cute"
-        ],
-        why:
-          "A minimal pumpkin-inspired look that keeps things simple for a cat.",
-        needs: [
-          "Orange or autumn-colored bandana",
-          "Optional pumpkin-patterned fabric",
-          "Comfortable collar if normally worn"
-        ],
-        steps: [
-          "Use a lightweight, comfortable bandana or fabric accessory.",
-          "Choose a design that sits away from your cat's face and front legs.",
-          "Check that nothing can easily snag or become loose.",
-          "Let your cat wear it only while supervised and remove it if they seem uncomfortable."
-        ],
-        diy:
-          "Make a small pumpkin shape from soft felt and secure it to a bandana."
-      },
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+  <p>
+    🐾 Made for dog and cat parents looking for Halloween costume ideas.
+  </p>
+
+  <p>
+    Costume suggestions are for inspiration. Always prioritize
+    your pet's comfort and safety.
+  </p>
+
+</footer>
 
 
-      {
-        name: "Classic Ghost",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["cute", "scary", "classic"],
-        effort: "easy",
-        budget: "free",
-        matching: true,
-        keywords: [
-          "ghost",
-          "spooky",
-          "white",
-          "classic"
-        ],
-        why:
-          "A classic Halloween idea using simple white fabric or an existing light-colored accessory.",
-        needs: [
-          "White pet-safe bandana or shirt",
-          "Optional ghost-patterned fabric",
-          "Scissors for trimming fabric if needed"
-        ],
-        steps: [
-          "Start with a comfortable white bandana or pet shirt.",
-          "Add small ghost-themed details to the fabric rather than attaching loose pieces to your pet.",
-          "Check that the fabric stays clear of the face, mouth, eyes and legs.",
-          "Do a short supervised test before wearing it for longer."
-        ],
-        diy:
-          "Use an old white pillowcase or fabric scrap to create a simple ghost-themed bandana."
-      },
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+const costumes = [
+
+  {
+    name: "Pumpkin Pup",
+    pets: ["dog"],
+    sizes: ["small","medium","large"],
+    styles: ["cute","classic"],
+    effort: "easy",
+    budget: "under25",
+    matching: true,
+    keywords: ["pumpkin","orange","fall","halloween"],
+    why: "A classic pumpkin look that is easy to put together and instantly recognizable.",
+    needs: [
+      "Orange pet bandana or comfortable pet accessory",
+      "Optional lightweight pumpkin detail",
+      "Your dog's normal collar or harness"
+    ],
+    steps: [
+      "Start with a comfortable orange bandana or pet-safe accessory.",
+      "Add one lightweight pumpkin detail if your dog is comfortable wearing it.",
+      "Keep the accessory away from the eyes, mouth and nose.",
+      "Try the costume briefly before Halloween."
+    ],
+    diy: "Cut a small pumpkin shape from soft felt and attach it securely to a bandana."
+  },
+
+  {
+    name: "Pumpkin Kitty",
+    pets: ["cat"],
+    sizes: ["small","medium"],
+    styles: ["cute","classic"],
+    effort: "easy",
+    budget: "free",
+    matching: true,
+    keywords: ["pumpkin","cat","orange","fall"],
+    why: "A simple pumpkin-inspired look that keeps the costume lightweight.",
+    needs: [
+      "Orange or autumn-colored bandana",
+      "Optional pumpkin-patterned fabric"
+    ],
+    steps: [
+      "Choose a lightweight cat-friendly bandana.",
+      "Add a small pumpkin design to the fabric.",
+      "Check that nothing can snag or become loose.",
+      "Only use it while supervised."
+    ],
+    diy: "Add a soft felt pumpkin shape to a simple bandana."
+  },
+
+  {
+    name: "Tiny Ghost",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["cute","scary","classic"],
+    effort: "easy",
+    budget: "free",
+    matching: true,
+    keywords: ["ghost","spooky","halloween","white"],
+    why: "A simple ghost costume that can be created with a lightweight accessory.",
+    needs: [
+      "White pet bandana or shirt",
+      "Optional ghost-patterned fabric"
+    ],
+    steps: [
+      "Start with a comfortable white pet accessory.",
+      "Add a simple ghost design to the fabric.",
+      "Keep the face and legs completely clear.",
+      "Test the costume briefly while supervising your pet."
+    ],
+    diy: "Use soft white fabric to create a simple ghost-themed bandana."
+  },
+
+  {
+    name: "Little Vampire",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["cute","scary","classic"],
+    effort: "easy",
+    budget: "under25",
+    matching: true,
+    keywords: ["vampire","gothic","spooky","dracula"],
+    why: "A cute vampire-inspired look without masks or complicated clothing.",
+    needs: [
+      "Black or red pet bandana",
+      "Optional lightweight cape-style accessory"
+    ],
+    steps: [
+      "Choose a comfortable black or red accessory.",
+      "Add a lightweight vampire-inspired fabric detail.",
+      "Keep all decorations away from the face.",
+      "Supervise your pet while wearing it."
+    ],
+    diy: "Make a small cape shape from lightweight fabric and attach it to a suitable pet accessory."
+  },
+
+  {
+    name: "Bat Buddy",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["cute","scary","classic"],
+    effort: "medium",
+    budget: "under25",
+    matching: true,
+    keywords: ["bat","wings","night","spooky"],
+    why: "A cute bat-inspired Halloween look that is especially fun for photos.",
+    needs: [
+      "Lightweight pet-safe bat wing accessory",
+      "Comfortable harness or pet clothing"
+    ],
+    steps: [
+      "Choose a lightweight wing accessory designed for pets.",
+      "Attach it according to the accessory instructions.",
+      "Make sure the wings do not interfere with walking.",
+      "Remove the costume if your pet seems uncomfortable."
+    ],
+    diy: "Cut bat-wing shapes from lightweight felt and attach them to a suitable harness."
+  },
+
+  {
+    name: "Superhero Sidekick",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["cute","funny","creative"],
+    effort: "medium",
+    budget: "under25",
+    matching: true,
+    keywords: ["superhero","hero","cape"],
+    why: "Turn your pet into your tiny superhero sidekick.",
+    needs: [
+      "Lightweight pet-safe cape or bandana",
+      "Optional superhero symbol"
+    ],
+    steps: [
+      "Choose a lightweight cape or superhero bandana.",
+      "Add a simple fabric symbol.",
+      "Make sure movement and vision remain unrestricted.",
+      "Try the costume briefly before Halloween."
+    ],
+    diy: "Make a simple felt superhero emblem and attach it to a bandana."
+  },
+
+  {
+    name: "Fancy Witch",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["cute","scary","classic","creative"],
+    effort: "easy",
+    budget: "under25",
+    matching: true,
+    keywords: ["witch","magic","witchy","purple"],
+    why: "A witchy Halloween look without bulky hats or complicated accessories.",
+    needs: [
+      "Purple, black or orange bandana",
+      "Optional lightweight witch-themed detail"
+    ],
+    steps: [
+      "Choose a comfortable Halloween-colored bandana.",
+      "Add a small witch-themed fabric detail.",
+      "Avoid anything that covers the face.",
+      "Supervise your pet while wearing the costume."
+    ],
+    diy: "Cut a small witch-hat or star shape from felt and attach it securely to the bandana."
+  },
+
+  {
+    name: "Spooky Skeleton",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["scary","classic","creative"],
+    effort: "easy",
+    budget: "under25",
+    matching: false,
+    keywords: ["skeleton","bones","spooky","black"],
+    why: "A recognizable Halloween look using a simple black base.",
+    needs: [
+      "Black pet shirt or bandana",
+      "White fabric design"
+    ],
+    steps: [
+      "Choose a comfortable black pet accessory.",
+      "Add simple bone shapes to the fabric.",
+      "Check for loose pieces before use.",
+      "Keep the design clear of the face and legs."
+    ],
+    diy: "Use white fabric paint on a removable black bandana or shirt."
+  },
+
+  {
+    name: "Hot Dog",
+    pets: ["dog"],
+    sizes: ["small","medium","large"],
+    styles: ["funny","food"],
+    effort: "easy",
+    budget: "under25",
+    matching: true,
+    keywords: ["hot dog","food","funny","sausage"],
+    why: "A funny dog costume that is instantly recognizable.",
+    needs: [
+      "Hot-dog-themed pet accessory",
+      "Optional yellow mustard-colored fabric detail"
+    ],
+    steps: [
+      "Start with a comfortable food-themed accessory.",
+      "Add a simple yellow mustard detail.",
+      "Keep your dog's legs and face clear.",
+      "Give your dog a short test run."
+    ],
+    diy: "Use red, brown and yellow fabric to create a hot-dog-inspired bandana."
+  },
+
+  {
+    name: "Burrito Kitty",
+    pets: ["cat"],
+    sizes: ["small","medium"],
+    styles: ["funny","food","cute"],
+    effort: "easy",
+    budget: "under25",
+    matching: false,
+    keywords: ["burrito","food","funny","cat"],
+    why: "A playful food theme represented with a simple accessory.",
+    needs: [
+      "Food-themed bandana",
+      "Optional tortilla-colored fabric detail"
+    ],
+    steps: [
+      "Choose a lightweight food-themed bandana.",
+      "Add a simple burrito-inspired design.",
+      "Keep your cat's face and legs clear.",
+      "Use only while supervised."
+    ],
+    diy: "Decorate a soft bandana with tortilla and filling colors."
+  },
+
+  {
+    name: "Cowboy Companion",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["funny","creative","classic"],
+    effort: "easy",
+    budget: "under25",
+    matching: true,
+    keywords: ["cowboy","western","cowgirl","ranch"],
+    why: "A simple Western costume that works especially well for matching costumes.",
+    needs: [
+      "Western-style bandana",
+      "Optional lightweight Western accessory"
+    ],
+    steps: [
+      "Place a comfortable Western bandana on your pet.",
+      "Add one lightweight Western detail.",
+      "Avoid hats or props that obstruct vision.",
+      "Keep the costume lightweight."
+    ],
+    diy: "Use a red or patterned fabric square as a cowboy-style bandana."
+  },
+
+  {
+    name: "Alien Visitor",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["creative","scary","funny"],
+    effort: "medium",
+    budget: "under25",
+    matching: false,
+    keywords: ["alien","space","ufo","galaxy"],
+    why: "A fun space-themed costume with lots of room for creative colors.",
+    needs: [
+      "Silver, green or purple bandana",
+      "Optional space-themed fabric detail"
+    ],
+    steps: [
+      "Choose a comfortable space-inspired base.",
+      "Add a lightweight alien or UFO design.",
+      "Keep decorations away from the face.",
+      "Supervise costume use."
+    ],
+    diy: "Use fabric paint on a removable bandana to add stars or planets."
+  },
+
+  {
+    name: "Little Lion",
+    pets: ["dog","cat"],
+    sizes: ["small","medium"],
+    styles: ["cute","funny"],
+    effort: "easy",
+    budget: "under25",
+    matching: false,
+    keywords: ["lion","mane","animal","cute"],
+    why: "A funny little-lion transformation that works beautifully for photos.",
+    needs: [
+      "Soft pet-safe lion mane",
+      "Comfortable collar or harness"
+    ],
+    steps: [
+      "Choose a soft lightweight lion mane.",
+      "Place it carefully away from the eyes and mouth.",
+      "Check that your pet can move comfortably.",
+      "Supervise the costume."
+    ],
+    diy: "Create a lightweight mane from soft felt or fleece."
+  },
+
+  {
+    name: "Spooky Spider",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["scary","cute","classic"],
+    effort: "medium",
+    budget: "under25",
+    matching: false,
+    keywords: ["spider","web","spooky","black"],
+    why: "A classic spooky Halloween theme with a simple black base.",
+    needs: [
+      "Black pet bandana or shirt",
+      "Lightweight spider-web design"
+    ],
+    steps: [
+      "Start with a comfortable black accessory.",
+      "Add a lightweight web design.",
+      "Keep nothing dangling near the legs or mouth.",
+      "Supervise your pet."
+    ],
+    diy: "Use white fabric paint to create a simple spider-web pattern."
+  },
+
+  {
+    name: "Emoji Pet",
+    pets: ["dog","cat"],
+    sizes: ["small","medium","large"],
+    styles: ["funny","creative","cute"],
+    effort: "easy",
+    budget: "free",
+    matching: false,
+    keywords: ["emoji","smiley","funny"],
+    why: "Turn your pet into a giant emoji using simple colors.",
+    needs: [
+      "Yellow or colorful bandana",
+      "Soft felt shapes"
+    ],
+    steps: [
+      "Choose a comfortable colorful bandana.",
+      "Add an emoji expression using securely attached fabric.",
+      "Check the accessory for loose pieces.",
+      "Keep the face completely unobstructed."
+    ],
+    diy: "Cut emoji eyes, hearts or smiles from felt and attach them securely."
+  }
+
+];
 
 
-      {
-        name: "Tiny Vampire",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["scary", "cute", "classic"],
-        effort: "easy",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "vampire",
-          "dracula",
-          "gothic",
-          "spooky"
-        ],
-        why:
-          "A cute vampire look without needing masks, face paint or complicated clothing.",
-        needs: [
-          "Black or red pet-safe bandana",
-          "Optional cape-style pet accessory",
-          "Optional red fabric accent"
-        ],
-        steps: [
-          "Start with a comfortable bandana or purpose-made pet accessory.",
-          "Add a lightweight vampire-inspired color or fabric detail.",
-          "Keep all decorations away from the face and mouth.",
-          "Supervise your pet while they are wearing the finished look."
-        ],
-        diy:
-          "Cut a small cape shape from lightweight fabric and secure it to a comfortable pet accessory rather than directly around the neck."
-      },
+/* =========================================================
+   HELPERS
+========================================================= */
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
 
 
-      {
-        name: "Spooky Skeleton",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["scary", "classic", "creative"],
-        effort: "easy",
-        budget: "under25",
-        matching: false,
-        keywords: [
-          "skeleton",
-          "bones",
-          "spooky",
-          "black",
-          "white"
-        ],
-        why:
-          "A recognizable Halloween look that can be created with a simple skeleton-patterned shirt or bandana.",
-        needs: [
-          "Black pet shirt or bandana",
-          "White skeleton pattern",
-          "Optional fabric-safe decorations"
-        ],
-        steps: [
-          "Choose a comfortable black pet shirt or bandana.",
-          "Add a simple white skeleton pattern to the fabric.",
-          "Check the finished item for loose pieces before putting it on.",
-          "Keep the design clear of your pet's face and legs."
-        ],
-        diy:
-          "Use white fabric paint on a removable black bandana or shirt to create simple bone shapes. Allow it to fully dry before use."
-      },
+function shuffle(array) {
+
+  const copy = [...array];
+
+  for (let i = copy.length - 1; i > 0; i--) {
+
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [copy[i],copy[j]] = [copy[j],copy[i]];
+
+  }
+
+  return copy;
+}
 
 
-      {
-        name: "Bat Buddy",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["cute", "scary", "classic"],
-        effort: "medium",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "bat",
-          "wings",
-          "night",
-          "spooky"
-        ],
-        why:
-          "A playful bat-inspired costume that works especially well for Halloween photos.",
-        needs: [
-          "Lightweight bat-wing accessory designed for pets",
-          "Comfortable harness or pet clothing",
-          "Optional black bandana"
-        ],
-        steps: [
-          "Use a lightweight wing accessory designed to be worn safely by pets.",
-          "Attach it to a comfortable harness or suitable pet clothing according to its instructions.",
-          "Check that the wings do not interfere with walking or movement.",
-          "Supervise your pet and remove the costume if they show discomfort."
-        ],
-        diy:
-          "Cut bat-wing shapes from lightweight felt and attach them to a pet-safe harness rather than directly to your pet."
-      },
+function budgetLabel(value) {
+
+  const labels = {
+    free: "Free",
+    under25: "Under $25",
+    under50: "Under $50",
+    "50plus": "$50+"
+  };
+
+  return labels[value] || "Any budget";
+}
 
 
-      {
-        name: "Superhero Sidekick",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["cute", "funny", "creative", "pop"],
-        effort: "medium",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "superhero",
-          "hero",
-          "cape",
-          "comic"
-        ],
-        why:
-          "Turn your pet into your tiny superhero sidekick with a simple cape-inspired look.",
-        needs: [
-          "Lightweight pet-safe cape or bandana",
-          "Optional superhero symbol",
-          "Comfortable harness or clothing"
-        ],
-        steps: [
-          "Choose a lightweight cape or superhero-style bandana made for pets.",
-          "Add a simple superhero symbol to the fabric.",
-          "Make sure the accessory cannot cover your pet's face or restrict movement.",
-          "Try it for a short period before Halloween."
-        ],
-        diy:
-          "Create a lightweight felt emblem and attach it to a bandana or pet shirt."
-      },
+function effortLabel(value) {
+
+  const labels = {
+    easy: "Super easy",
+    medium: "Some effort",
+    diy: "DIY project"
+  };
+
+  return labels[value] || "Any effort";
+}
 
 
-      {
-        name: "Little Lion",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium"],
-        styles: ["cute", "funny"],
-        effort: "easy",
-        budget: "under25",
-        matching: false,
-        keywords: [
-          "lion",
-          "animal",
-          "mane",
-          "cute"
-        ],
-        why:
-          "A funny little-lion transformation that works particularly well for fluffy pets.",
-        needs: [
-          "Soft pet-safe lion mane accessory",
-          "Comfortable collar or harness"
-        ],
-        steps: [
-          "Choose a soft, lightweight lion mane designed for pets.",
-          "Place it carefully so it does not interfere with the eyes or mouth.",
-          "Check that your pet can walk, eat and move comfortably.",
-          "Keep the costume supervised."
-        ],
-        diy:
-          "Create a lightweight mane from soft felt or fleece and attach it to a comfortable pet accessory."
-      },
+function themeMatch(costume,theme) {
+
+  if (!theme.trim()) return false;
+
+  const search = theme.toLowerCase().trim();
+
+  return costume.keywords.some(keyword =>
+    keyword.toLowerCase().includes(search) ||
+    search.includes(keyword.toLowerCase())
+  );
+}
 
 
-      {
-        name: "Hot Dog",
-        pets: ["dog"],
-        sizes: ["small", "medium", "large"],
-        styles: ["funny", "food"],
-        effort: "easy",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "hot dog",
-          "food",
-          "funny",
-          "sausage"
-        ],
-        why:
-          "The classic dog-as-a-hot-dog costume is funny, recognizable and easy to photograph.",
-        needs: [
-          "Pet-safe hot-dog costume or red/brown bandana",
-          "Optional yellow mustard-colored detail"
-        ],
-        steps: [
-          "Start with a comfortable pet costume or themed bandana.",
-          "Add a simple yellow mustard-inspired detail to the fabric.",
-          "Check that the costume leaves your dog's legs and face clear.",
-          "Give your dog a short test run before Halloween."
-        ],
-        diy:
-          "Use red, brown and yellow fabric to create a simple hot-dog-inspired bandana or shirt."
-      },
+/* =========================================================
+   GENERATOR
+========================================================= */
+
+function generateIdeas(preferences) {
+
+  let candidates = costumes.filter(costume =>
+    costume.pets.includes(preferences.petType)
+  );
+
+  if (!candidates.length) {
+    return [];
+  }
 
 
-      {
-        name: "Burrito Kitty",
-        pets: ["cat"],
-        sizes: ["small", "medium"],
-        styles: ["funny", "food", "cute"],
-        effort: "easy",
-        budget: "under25",
-        matching: false,
-        keywords: [
-          "burrito",
-          "food",
-          "funny",
-          "cat"
-        ],
-        why:
-          "A playful food-themed idea that can be represented with a simple patterned accessory.",
-        needs: [
-          "Food-themed bandana",
-          "Optional tortilla-colored fabric detail"
-        ],
-        steps: [
-          "Choose a lightweight food-themed bandana or accessory.",
-          "Add a simple burrito-inspired pattern to the fabric.",
-          "Keep your cat's face, legs and movement completely clear.",
-          "Only use it while supervised."
-        ],
-        diy:
-          "Decorate a soft bandana with simple tortilla and filling colors to suggest a burrito."
-      },
+  const scored = candidates.map(costume => {
 
+    let score = 0;
 
-      {
-        name: "Fancy Witch",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["cute", "scary", "classic", "creative"],
-        effort: "easy",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "witch",
-          "magic",
-          "witchy",
-          "purple"
-        ],
-        why:
-          "A cute witch-inspired costume without needing a bulky hat or restrictive clothing.",
-        needs: [
-          "Purple, black or orange pet bandana",
-          "Optional witch-themed fabric detail",
-          "Optional lightweight pet-safe accessory"
-        ],
-        steps: [
-          "Choose a comfortable Halloween-colored bandana.",
-          "Add a small witch-themed fabric detail.",
-          "Avoid placing hats or accessories over the face.",
-          "Test the finished costume briefly under supervision."
-        ],
-        diy:
-          "Cut a small witch-hat or star shape from felt and attach it securely to the bandana."
-      },
-
-
-      {
-        name: "Friendly Pirate",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["funny", "cute", "classic", "creative"],
-        effort: "medium",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "pirate",
-          "pirates",
-          "treasure",
-          "ship"
-        ],
-        why:
-          "A fun pirate look can be built from simple black, red and white accessories.",
-        needs: [
-          "Pirate-patterned bandana",
-          "Optional lightweight pirate-style cape or shirt",
-          "Red or black fabric accent"
-        ],
-        steps: [
-          "Start with a comfortable pirate-themed bandana.",
-          "Add one lightweight fabric detail if your pet tolerates it.",
-          "Never cover your pet's eye with a pirate eyepatch.",
-          "Check movement and comfort before taking photos."
-        ],
-        diy:
-          "Turn an old red or black fabric scrap into a pirate-inspired bandana."
-      },
-
-
-      {
-        name: "Alien Visitor",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["creative", "scary", "funny", "pop"],
-        effort: "medium",
-        budget: "under25",
-        matching: false,
-        keywords: [
-          "alien",
-          "space",
-          "ufo",
-          "science fiction"
-        ],
-        why:
-          "A playful space-themed costume with plenty of room for creative colors.",
-        needs: [
-          "Silver, green or purple pet-safe bandana",
-          "Optional lightweight space-themed fabric detail"
-        ],
-        steps: [
-          "Choose a comfortable base accessory in a space-inspired color.",
-          "Add a lightweight alien or UFO-themed design to the fabric.",
-          "Keep all details away from your pet's face and mouth.",
-          "Supervise the costume during use."
-        ],
-        diy:
-          "Use fabric paint on a removable bandana to add stars, planets or simple alien shapes."
-      },
-
-
-      {
-        name: "Cowboy Companion",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["funny", "creative", "classic"],
-        effort: "easy",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "cowboy",
-          "western",
-          "cowgirl",
-          "ranch"
-        ],
-        why:
-          "A simple Western look that works especially well when matching with a human cowboy costume.",
-        needs: [
-          "Western-style bandana",
-          "Optional lightweight cowboy-themed accessory"
-        ],
-        steps: [
-          "Place a comfortable Western bandana on your pet.",
-          "Add a small Western-themed fabric detail if desired.",
-          "Avoid hats or accessories that could obstruct vision.",
-          "Keep the outfit lightweight and supervised."
-        ],
-        diy:
-          "Use a red or patterned fabric square to make a simple cowboy-style bandana."
-      },
-
-
-      {
-        name: "Emoji Pet",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["funny", "creative", "cute"],
-        effort: "easy",
-        budget: "free",
-        matching: false,
-        keywords: [
-          "emoji",
-          "smiley",
-          "funny",
-          "internet"
-        ],
-        why:
-          "Turn your pet into a giant emoji using simple colors and a bandana.",
-        needs: [
-          "Yellow or colorful bandana",
-          "Felt shapes for an emoji expression"
-        ],
-        steps: [
-          "Choose a comfortable yellow or colorful bandana.",
-          "Add a simple emoji expression using securely attached fabric.",
-          "Check the finished accessory for loose pieces.",
-          "Keep the face completely unobstructed."
-        ],
-        diy:
-          "Cut eyes, hearts or a smile from felt and securely attach them to the bandana."
-      },
-
-
-      {
-        name: "Cloud & Rainbow",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["cute", "creative"],
-        effort: "medium",
-        budget: "under25",
-        matching: false,
-        keywords: [
-          "cloud",
-          "rainbow",
-          "weather",
-          "cute"
-        ],
-        why:
-          "A soft and colorful costume idea that looks adorable in Halloween photos.",
-        needs: [
-          "White or pastel bandana",
-          "Rainbow-colored fabric accents"
-        ],
-        steps: [
-          "Start with a lightweight white or pastel bandana.",
-          "Add small rainbow-colored fabric details.",
-          "Keep all decorations secure and away from the face and legs.",
-          "Test the accessory briefly before using it for photos."
-        ],
-        diy:
-          "Cut small rainbow strips from felt and attach them securely to the bandana."
-      },
-
-
-      {
-        name: "Detective Pup",
-        pets: ["dog"],
-        sizes: ["small", "medium", "large"],
-        styles: ["funny", "creative", "classic"],
-        effort: "easy",
-        budget: "under25",
-        matching: true,
-        keywords: [
-          "detective",
-          "detective dog",
-          "mystery",
-          "sleuth"
-        ],
-        why:
-          "A funny detective theme that pairs especially well with a human detective costume.",
-        needs: [
-          "Plaid or brown bandana",
-          "Optional detective-themed fabric badge"
-        ],
-        steps: [
-          "Use a comfortable plaid or brown bandana.",
-          "Add a small detective-themed fabric badge.",
-          "Avoid hats or props that can obstruct vision.",
-          "Keep the costume lightweight for walking."
-        ],
-        diy:
-          "Cut a small magnifying-glass or detective badge shape from felt and attach it to the bandana."
-      },
-
-
-      {
-        name: "Spooky Spider",
-        pets: ["dog", "cat"],
-        sizes: ["small", "medium", "large"],
-        styles: ["scary", "cute", "classic"],
-        effort: "medium",
-        budget: "under25",
-        matching: false,
-        keywords: [
-          "spider",
-          "web",
-          "spooky",
-          "black"
-        ],
-        why:
-          "A classic spooky theme with a simple black base.",
-        needs: [
-          "Black pet-safe bandana or shirt",
-          "Lightweight felt spider-web detail"
-        ],
-        steps: [
-          "Start with a comfortable black accessory.",
-          "Add a lightweight spider-web design to the fabric.",
-          "Make sure nothing dangles near the legs or mouth.",
-          "Supervise your pet while wearing it."
-        ],
-        diy:
-          "Use white fabric paint or felt to create a simple web pattern on a removable bandana."
-      }
-
-    ];
-
-
-    /* =========================
-       HELPERS
-    ========================== */
-
-    function escapeHtml(value) {
-
-      return String(value)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-
+    if (costume.pets.includes(preferences.petType)) {
+      score += 10;
     }
 
-
-    function shuffle(array) {
-
-      const copy = [...array];
-
-      for (
-        let i = copy.length - 1;
-        i > 0;
-        i--
-      ) {
-
-        const j =
-          Math.floor(
-            Math.random() * (i + 1)
-          );
-
-        [
-          copy[i],
-          copy[j]
-        ] = [
-          copy[j],
-          copy[i]
-        ];
-
-      }
-
-      return copy;
+    if (
+      preferences.size !== "any" &&
+      costume.sizes.includes(preferences.size)
+    ) {
+      score += 3;
     }
 
-
-    function getBudgetLabel(value) {
-
-      const labels = {
-
-        free:
-          "Free / use what I have",
-
-        under25:
-          "Under $25",
-
-        under50:
-          "Under $50",
-
-        "50plus":
-          "$50+"
-
-      };
-
-      return labels[value] || "Any budget";
+    if (
+      preferences.style !== "any" &&
+      costume.styles.includes(preferences.style)
+    ) {
+      score += 5;
     }
 
-
-    function getEffortLabel(value) {
-
-      const labels = {
-
-        easy:
-          "Super easy",
-
-        medium:
-          "Some effort",
-
-        diy:
-          "DIY project"
-
-      };
-
-      return labels[value] || "Any effort";
+    if (
+      preferences.effort !== "any" &&
+      costume.effort === preferences.effort
+    ) {
+      score += 4;
     }
 
-
-    function petLabel(pet) {
-
-      return pet === "dog"
-        ? "dog"
-        : "cat";
+    if (
+      preferences.budget !== "any" &&
+      costume.budget === preferences.budget
+    ) {
+      score += 4;
     }
 
-
-    function matchesTheme(costume, theme) {
-
-      if (!theme.trim()) {
-        return false;
-      }
-
-      const normalized =
-        theme
-          .toLowerCase()
-          .trim();
-
-      return costume.keywords.some(
-        keyword =>
-          keyword
-            .toLowerCase()
-            .includes(normalized) ||
-
-          normalized.includes(
-            keyword.toLowerCase()
-          )
-      );
+    if (
+      preferences.matching === "yes" &&
+      costume.matching
+    ) {
+      score += 5;
     }
 
+    if (themeMatch(costume,preferences.theme)) {
+      score += 10;
+    }
 
-    /* =========================
-       SCORING
-    ========================== */
-
-    function scoreCostume(
+    return {
       costume,
-      preferences
-    ) {
+      score
+    };
 
-      let score = 0;
-
-
-      if (
-        costume.pets.includes(
-          preferences.petType
-        )
-      ) {
-
-        score += 10;
-
-      }
+  });
 
 
-      if (
-        preferences.size !== "any" &&
-        costume.sizes.includes(
-          preferences.size
-        )
-      ) {
-
-        score += 4;
-
-      }
+  scored.sort((a,b) => b.score - a.score);
 
 
-      if (
-        preferences.style !== "any" &&
-        costume.styles.includes(
-          preferences.style
-        )
-      ) {
-
-        score += 5;
-
-      }
+  const top = scored.slice(
+    0,
+    Math.min(9,scored.length)
+  );
 
 
-      if (
-        preferences.effort !== "any" &&
-        costume.effort ===
-          preferences.effort
-      ) {
-
-        score += 4;
-
-      }
+  return shuffle(top)
+    .slice(0,3)
+    .map(item => item.costume);
+}
 
 
-      if (
-        preferences.budget !== "any" &&
-        costume.budget ===
-          preferences.budget
-      ) {
+/* =========================================================
+   RENDER RESULTS
+========================================================= */
 
-        score += 4;
+function renderResults(ideas,preferences) {
 
-      }
+  const results =
+    document.getElementById("results");
 
+  const pet =
+    preferences.petType === "dog"
+      ? "dog"
+      : "cat";
 
-      if (
-        preferences.matching === "yes" &&
-        costume.matching === true
-      ) {
+  let intro =
+    `Here are three ${pet}-friendly Halloween ideas based on your choices.`;
 
-        score += 5;
+  if (preferences.matching === "yes") {
+    intro += " Matching-friendly ideas were prioritized.";
+  }
 
-      }
-
-
-      if (
-        matchesTheme(
-          costume,
-          preferences.theme
-        )
-      ) {
-
-        score += 8;
-
-      }
+  if (preferences.theme.trim()) {
+    intro += ` Theme preference: "${escapeHtml(preferences.theme.trim())}".`;
+  }
 
 
-      return score;
-    }
+  const cards = ideas.map((costume,index) => {
+
+    const needs = costume.needs
+      .map(item => `<li>${escapeHtml(item)}</li>`)
+      .join("");
+
+    const steps = costume.steps
+      .map(item => `<li>${escapeHtml(item)}</li>`)
+      .join("");
+
+    const style =
+      costume.styles[0].charAt(0).toUpperCase() +
+      costume.styles[0].slice(1);
 
 
-    /* =========================
-       GENERATOR
-    ========================== */
+    return `
 
-    function generateIdeas(
-      preferences
-    ) {
+      <article class="result">
 
-      let candidates =
-        costumes.filter(
-          costume =>
-            costume.pets.includes(
-              preferences.petType
-            )
-        );
+        <h3>
+          ${index + 1}. ${escapeHtml(costume.name)}
+        </h3>
 
+        <div class="tags">
 
-      if (!candidates.length) {
-        return [];
-      }
+          <span class="tag">
+            ${preferences.petType === "dog" ? "🐶 Dog" : "🐱 Cat"}
+          </span>
 
+          <span class="tag">
+            ${escapeHtml(style)}
+          </span>
 
-      const scored =
-        candidates
-          .map(costume => ({
+          <span class="tag">
+            ${escapeHtml(effortLabel(costume.effort))}
+          </span>
 
-            costume,
+          <span class="tag">
+            ${escapeHtml(budgetLabel(costume.budget))}
+          </span>
 
-            score:
-              scoreCostume(
-                costume,
-                preferences
-              )
-
-          }))
-          .sort(
-            (a, b) =>
-              b.score - a.score
-          );
-
-
-      /*
-        Use a randomized pool of the
-        strongest matching results so
-        repeated searches aren't identical.
-      */
-
-      const topPool =
-        scored.slice(
-          0,
-          Math.min(
-            10,
-            scored.length
-          )
-        );
-
-
-      const randomized =
-        shuffle(topPool);
-
-
-      const selected =
-        randomized
-          .slice(0, 3)
-          .map(
-            item =>
-              item.costume
-          );
-
-
-      /*
-        Ensure we always attempt
-        to return three ideas.
-      */
-
-      if (
-        selected.length < 3
-      ) {
-
-        for (
-          const item of scored
-        ) {
-
-          if (
-            !selected.includes(
-              item.costume
-            )
-          ) {
-
-            selected.push(
-              item.costume
-            );
-
+          ${
+            costume.matching
+              ? '<span class="tag">👯 Matching friendly</span>'
+              : ''
           }
 
-          if (
-            selected.length === 3
-          ) {
+        </div>
 
-            break;
 
-          }
+        <div class="result-section">
 
-        }
-
-      }
-
-
-      return selected;
-    }
-
-
-    /* =========================
-       RENDER
-    ========================== */
-
-    function renderResults(
-      ideas,
-      preferences
-    ) {
-
-      const results =
-        document.getElementById(
-          "results"
-        );
-
-
-      const petName =
-        petLabel(
-          preferences.petType
-        );
-
-
-      let introText =
-        `Here are three ${petName}-friendly Halloween ideas based on your choices.`;
-
-
-      if (
-        preferences.matching ===
-        "yes"
-      ) {
-
-        introText +=
-          " We also prioritized ideas that can pair nicely with your costume.";
-
-      }
-
-
-      if (
-        preferences.theme.trim()
-      ) {
-
-        introText +=
-          ` Your theme "${escapeHtml(
-            preferences.theme.trim()
-          )}" was used as a preference.`;
-
-      }
-
-
-      const cards =
-        ideas.map(
-          (costume, index) => {
-
-            const steps =
-              costume.steps
-                .map(
-                  step =>
-                    `<li>${escapeHtml(
-                      step
-                    )}</li>`
-                )
-                .join("");
-
-
-            const needs =
-              costume.needs
-                .map(
-                  item =>
-                    `<li>${escapeHtml(
-                      item
-                    )}</li>`
-                )
-                .join("");
-
-
-            const primaryStyle =
-              costume.styles[0]
-                .charAt(0)
-                .toUpperCase() +
-              costume.styles[0]
-                .slice(1);
-
-
-            return `
-
-              <article
-                class="result-card"
-              >
-
-                <h3
-                  class="result-title"
-                >
-                  ${index + 1}.
-                  ${escapeHtml(
-                    costume.name
-                  )}
-                </h3>
-
-
-                <div
-                  class="result-tags"
-                >
-
-                  <span class="tag">
-
-                    ${
-                      preferences.petType ===
-                      "dog"
-
-                        ? "🐶 Dog"
-
-                        : "🐱 Cat"
-
-                    }
-
-                  </span>
-
-
-                  <span class="tag">
-
-                    ${escapeHtml(
-                      primaryStyle
-                    )}
-
-                  </span>
-
-
-                  <span class="tag">
-
-                    ${escapeHtml(
-                      getEffortLabel(
-                        costume.effort
-                      )
-                    )}
-
-                  </span>
-
-
-                  <span class="tag">
-
-                    ${escapeHtml(
-                      getBudgetLabel(
-                        costume.budget
-                      )
-                    )}
-
-                  </span>
-
-
-                  ${
-                    costume.matching
-
-                      ? `
-                        <span class="tag">
-                          👯 Matching friendly
-                        </span>
-                      `
-
-                      : ""
-                  }
-
-                </div>
-
-
-                <div
-                  class="result-section"
-                >
-
-                  <h4>
-                    💡 Why it works
-                  </h4>
-
-                  <p>
-                    ${escapeHtml(
-                      costume.why
-                    )}
-                  </p>
-
-                </div>
-
-
-                <div
-                  class="result-section"
-                >
-
-                  <h4>
-                    🛒 What you'll need
-                  </h4>
-
-                  <ul>
-                    ${needs}
-                  </ul>
-
-                </div>
-
-
-                <div
-                  class="result-section"
-                >
-
-                  <h4>
-                    ✨ How to put it together
-                  </h4>
-
-                  <ol>
-                    ${steps}
-                  </ol>
-
-                </div>
-
-
-                <div
-                  class="result-section"
-                >
-
-                  <h4>
-                    🧵 DIY idea
-                  </h4>
-
-                  <p>
-                    ${escapeHtml(
-                      costume.diy
-                    )}
-                  </p>
-
-                </div>
-
-
-                <div
-                  class="pet-note"
-                >
-
-                  🐾
-                  <strong>
-                    Pet-friendly tip:
-                  </strong>
-
-                  Keep costumes comfortable
-                  and lightweight. Keep your
-                  pet's eyes, mouth, nose and
-                  legs clear, avoid loose or
-                  dangling pieces, supervise
-                  costume use, and remove the
-                  costume if your pet seems
-                  stressed or uncomfortable.
-
-                </div>
-
-              </article>
-
-            `;
-
-          }
-        )
-        .join("");
-
-
-      results.innerHTML = `
-
-        <div
-          class="results-header"
-        >
-
-          <h2>
-            🎃 Your Halloween Costume Ideas
-          </h2>
+          <h4>💡 Why it works</h4>
 
           <p>
-            ${introText}
+            ${escapeHtml(costume.why)}
           </p>
 
         </div>
 
 
-        ${cards}
+        <div class="result-section">
+
+          <h4>🛒 What you'll need</h4>
+
+          <ul>
+            ${needs}
+          </ul>
+
+        </div>
 
 
-        <button
-          type="button"
-          class="more-btn"
-          id="moreIdeas"
-        >
-          🔄 Generate 3 More Ideas
-        </button>
+        <div class="result-section">
 
-      `;
+          <h4>✨ How to put it together</h4>
+
+          <ol>
+            ${steps}
+          </ol>
+
+        </div>
 
 
-      results.classList.remove(
-        "hidden"
+        <div class="result-section">
+
+          <h4>🧵 DIY idea</h4>
+
+          <p>
+            ${escapeHtml(costume.diy)}
+          </p>
+
+        </div>
+
+
+        <div class="safety">
+
+          🐾
+          <strong>Pet-friendly tip:</strong>
+          Keep costumes lightweight and comfortable.
+          Keep your pet's eyes, mouth, nose and legs clear.
+          Avoid loose or dangling pieces and always supervise
+          costume use.
+
+        </div>
+
+      </article>
+
+    `;
+
+  }).join("");
+
+
+  results.innerHTML = `
+
+    <div class="results-title">
+
+      <h2>
+        🎃 Your Halloween Costume Ideas
+      </h2>
+
+      <p>
+        ${intro}
+      </p>
+
+    </div>
+
+    ${cards}
+
+    <button
+      type="button"
+      class="more"
+      id="moreIdeas">
+      🔄 Generate 3 More Ideas
+    </button>
+
+  `;
+
+
+  results.classList.remove("hidden");
+
+
+  results.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+
+
+  document
+    .getElementById("moreIdeas")
+    .addEventListener("click",function() {
+
+      const newIdeas =
+        generateIdeas(preferences);
+
+      renderResults(
+        newIdeas,
+        preferences
       );
 
+    });
 
-      results.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
+}
 
 
-      document
-        .getElementById(
-          "moreIdeas"
-        )
-        .addEventListener(
-          "click",
-          () => {
+/* =========================================================
+   FORM
+========================================================= */
 
-            const newIdeas =
-              generateIdeas(
-                preferences
-              );
+document
+  .getElementById("costumeForm")
+  .addEventListener("submit",function(event) {
 
-            renderResults(
-              newIdeas,
-              preferences
-            );
-
-          }
-        );
-
-    }
+    event.preventDefault();
 
 
-    /* =========================
-       FORM
-    ========================== */
+    const preferences = {
 
-    document
-      .getElementById(
-        "costumeForm"
-      )
-      .addEventListener(
-        "submit",
-        function(event) {
+      petType:
+        document.getElementById("petType").value,
 
-          event.preventDefault();
+      size:
+        document.getElementById("size").value,
 
+      style:
+        document.getElementById("style").value,
 
-          const preferences = {
+      effort:
+        document.getElementById("effort").value,
 
-            petType:
-              document
-                .getElementById(
-                  "petType"
-                )
-                .value,
+      budget:
+        document.getElementById("budget").value,
 
-            size:
-              document
-                .getElementById(
-                  "size"
-                )
-                .value,
+      matching:
+        document.getElementById("matching").value,
 
-            style:
-              document
-                .getElementById(
-                  "style"
-                )
-                .value,
+      theme:
+        document.getElementById("theme").value
 
-            effort:
-              document
-                .getElementById(
-                  "effort"
-                )
-                .value,
-
-            budget:
-              document
-                .getElementById(
-                  "budget"
-                )
-                .value,
-
-            matching:
-              document
-                .getElementById(
-                  "matching"
-                )
-                .value,
-
-            theme:
-              document
-                .getElementById(
-                  "theme"
-                )
-                .value
-
-          };
+    };
 
 
-          const ideas =
-            generateIdeas(
-              preferences
-            );
+    const ideas =
+      generateIdeas(preferences);
 
 
-          renderResults(
-            ideas,
-            preferences
-          );
+    renderResults(
+      ideas,
+      preferences
+    );
 
-        }
-      );
+  });
 
-  </script>
+</script>
 
 </body>
 </html>
